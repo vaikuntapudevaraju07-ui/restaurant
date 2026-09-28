@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-tertiary-fixed":"#2c1600","on-secondary-fixed":"#281900","inverse-on-surface":"#f2f0ed","secondary":"#7f5700","on-secondary":"#ffffff","surface-variant":"#e4e2de","on-primary-fixed-variant":"#763037","on-primary-fixed":"#3d040e","on-primary-container":"#ca7379","primary-fixed-dim":"#ffb3b6","tertiary-fixed":"#ffdcbd","surface-container-highest":"#e4e2de","inverse-surface":"#30312e","on-tertiary":"#ffffff","secondary-container":"#fcbf55","on-tertiary-container":"#b6824b","outline-variant":"#d9c1c1","on-secondary-fixed-variant":"#604100","surface-container-high":"#eae8e4","outline":"#867273","tertiary-container":"#391f00","tertiary-fixed-dim":"#f7bb7e","inverse-primary":"#ffb3b6","on-tertiary-fixed-variant":"#663e0b","on-primary":"#ffffff","surface-container-lowest":"#ffffff","primary-container":"#4a0e17","on-surface-variant":"#544343","primary":"#2a0006","error-container":"#ffdad6","surface-container":"#efeeea","background":"#fbf9f5","on-error-container":"#93000a","surface":"#fbf9f5","error":"#ba1a1a","tertiary":"#1c0c00","surface-tint":"#93474d","on-error":"#ffffff","on-secondary-container":"#724d00","on-surface":"#1b1c1a","surface-container-low":"#f5f3ef","secondary-fixed-dim":"#f9bc53","primary-fixed":"#ffdada","surface-bright":"#fbf9f5","on-background":"#1b1c1a","secondary-fixed":"#ffdeae","surface-dim":"#dbdad6"},borderRadius:{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},spacing:{"margin":"3rem","space-md":"1rem","space-lg":"1.75rem","space-sm":"0.5rem","space-xl":"2.75rem","gutter":"1.5rem","margin-mobile":"1.25rem","space-xs":"0.25rem","gutter-mobile":"1rem"},fontFamily:{"headline-lg-mobile":["Playfair Display"],"body-lg":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"display-lg-mobile":["Playfair Display"],"display-lg":["Playfair Display"],"title-md":["Plus Jakarta Sans"],"headline-md":["Playfair Display"],"body-sm":["Plus Jakarta Sans"],"title-lg":["Playfair Display"],"label-lg":["Plus Jakarta Sans"],"headline-lg":["Playfair Display"],"headline-sm":["Playfair Display"],"label-md":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"]},fontSize:{"headline-lg-mobile":["30px",{"lineHeight":"38px","letterSpacing":"0","fontWeight":"600"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.04em","fontWeight":"500"}],"display-lg-mobile":["38px",{"lineHeight":"46px","letterSpacing":"-0.01em","fontWeight":"700"}],"display-lg":["56px",{"lineHeight":"64px","letterSpacing":"-0.02em","fontWeight":"700"}],"title-md":["16px",{"lineHeight":"24px","letterSpacing":"0.01em","fontWeight":"600"}],"headline-md":["28px",{"lineHeight":"36px","fontWeight":"600"}],"body-sm":["13px",{"lineHeight":"20px","fontWeight":"400"}],"title-lg":["20px",{"lineHeight":"28px","fontWeight":"600"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.08em","fontWeight":"600"}],"headline-lg":["40px",{"lineHeight":"48px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-sm":["22px",{"lineHeight":"30px","fontWeight":"500"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.06em","fontWeight":"600"}],"body-md":["15px",{"lineHeight":"24px","fontWeight":"400"}]}}}};</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-md shadow-[0_4px_24px_rgba(74,14,23,0.06)]"><div class="bg-primary text-on-primary py-space-xs px-gutter"><div class="w-full flex flex-wrap items-center justify-between text-label-sm font-label-sm"><div class="flex items-center gap-gutter flex-wrap"><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[15px] text-secondary-fixed">call</span><span>+1 (555) 789-2345</span></div><span class="text-secondary-fixed/40 hidden sm:inline">✦</span><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[15px] text-secondary-fixed">location_on</span><span>108 Royal Heritage Boulevard, Downtown</span></div><span class="text-secondary-fixed/40 hidden lg:inline">✦</span><div class="hidden lg:flex items-center gap-space-xs"><span class="material-symbols-outlined text-[15px] text-secondary-fixed">schedule</span><span>Mon - Sun: 11:30 AM - 11:00 PM</span></div></div><div class="flex items-center gap-space-md"><a class="flex items-center gap-space-xs text-secondary-fixed hover:text-on-primary transition-colors" data-path="reservations" href="contact.html#reservationForm"><span class="material-symbols-outlined text-[14px]">event_seat</span><span>Quick Table Booking</span></a></div></div></div><div class="h-20 w-full px-gutter flex items-center justify-between"><a class="flex items-center gap-space-md group" data-path="home" href="index.html"><div class="w-10 h-10 rounded-lg bg-primary-container flex items-center justify-center text-secondary-fixed shadow-[0_2px_8px_rgba(74,14,23,0.2)]"><span class="material-symbols-outlined text-[24px]">restaurant</span></div><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight group-hover:text-primary-container transition-colors">Deluxe Mahal</span><span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary">Royal Culinary Heritage</span></div></a><nav class="hidden md:flex items-center gap-space-sm" data-active-classes="bg-primary-container text-on-primary font-bold rounded-lg"><a class="px-space-md py-space-sm text-on-surface-variant hover:text-on-surface transition-colors font-label-md text-label-md uppercase tracking-wider" data-path="home" href="index.html">Home</a><a class="px-space-md py-space-sm text-on-surface-variant hover:text-on-surface transition-colors font-label-md text-label-md uppercase tracking-wider" data-path="about-us" href="about.html">About Us</a><a class="px-space-md py-space-sm text-on-surface-variant hover:text-on-surface transition-colors font-label-md text-label-md uppercase tracking-wider" data-path="menu" href="menu.html">Menu</a><a aria-current="page" class="px-space-md py-space-sm transition-colors uppercase tracking-wider bg-primary-container text-on-primary font-bold rounded-lg" data-path="gallery" href="gallery.html">Gallery</a><a class="px-space-md py-space-sm text-on-surface-variant hover:text-on-surface transition-colors font-label-md text-label-md uppercase tracking-wider" data-path="contact" href="contact.html">Contact</a></nav><div class="flex items-center gap-space-md"><a class="hidden sm:inline-flex items-center justify-center px-space-lg py-space-sm bg-secondary-container hover:bg-secondary text-on-secondary-fixed hover:text-on-secondary font-label-lg text-label-lg uppercase tracking-wider rounded-lg shadow-[0_4px_16px_rgba(252,191,85,0.35)] transition-all" data-path="reservations" href="contact.html#reservationForm">Book a Table</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface"><div class="flex flex-col w-full">
+<!-- Top Heritage Breadcrumb & Sub-masthead -->
+<section class="w-full bg-surface-container-low px-gutter py-space-lg">
+<div class="w-full max-w-7xl mx-auto flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-xs text-label-sm font-label-sm text-outline uppercase tracking-widest">
+<span>Imperial Archives</span>
+<span class="text-secondary">✦</span>
+<span class="text-on-surface">Curated Photo Gallery</span>
+</div>
+<div class="flex items-center gap-space-md text-label-sm font-label-sm">
+<span class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded bg-surface-container-highest text-primary font-bold">
+<span class="material-symbols-outlined text-[15px] text-secondary">photo_library</span>
+<span>9 Master Works On Display</span>
+</span>
+<span class="text-outline-variant">|</span>
+<span class="text-on-surface-variant">Archival Series 2024-2025</span>
+</div>
+</div>
+</section>
+<!-- Editorial Gallery Header -->
+<section class="w-full px-gutter pt-space-xl pb-space-lg relative overflow-hidden">
+<div class="w-full max-w-7xl mx-auto flex flex-col lg:flex-row lg:items-end justify-between gap-space-lg">
+<div class="flex flex-col gap-space-sm max-w-3xl">
+<div class="inline-flex items-center gap-space-xs text-secondary font-label-md text-label-md uppercase tracking-widest">
+<span class="material-symbols-outlined text-[16px]">hotel_class</span>
+<span>Visual Chronicles of Aristocracy</span>
+</div>
+<h1 class="font-display-lg text-display-lg text-primary tracking-tight">
+          Glimpses of Royal Grandeur
+        </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+          Explore our opulent palace interiors, masterfully plated dishes, and memorable royal banquet celebrations. Each tableau captures centuries of Mughal and Awadhi hospitality.
+        </p>
+</div>
+<!-- Quick Metrics Ribbon -->
+<div class="flex items-center gap-space-lg bg-surface-container p-space-md rounded-xl shadow-sm self-start lg:self-auto">
+<div class="flex flex-col pr-space-md">
+<span class="font-headline-sm text-headline-sm text-primary">360°</span>
+<span class="font-label-sm text-label-sm text-outline uppercase">Spatial Immersion</span>
+</div>
+<div class="h-8 w-px bg-surface-variant"></div>
+<div class="flex flex-col pl-space-xs">
+<span class="font-headline-sm text-headline-sm text-secondary">100%</span>
+<span class="font-label-sm text-label-sm text-outline uppercase">Handcrafted Artistry</span>
+</div>
+</div>
+</div>
+<!-- Filter Categories Segmented Control -->
+<div class="w-full max-w-7xl mx-auto mt-space-xl">
+<div class="flex items-center gap-space-xs overflow-x-auto pb-space-xs">
+<button class="gallery-tab active-tab px-space-lg py-space-sm rounded-lg font-label-md text-label-md uppercase tracking-wider transition-all bg-primary-container text-on-primary font-bold shadow-md" data-filter="all" type="button">
+          All Photos
+        </button>
+<button class="gallery-tab px-space-lg py-space-sm rounded-lg font-label-md text-label-md uppercase tracking-wider transition-all text-on-surface-variant hover:text-primary hover:bg-surface-container font-semibold" data-filter="interior" type="button">
+          Restaurant Interior &amp; Ambience
+        </button>
+<button class="gallery-tab px-space-lg py-space-sm rounded-lg font-label-md text-label-md uppercase tracking-wider transition-all text-on-surface-variant hover:text-primary hover:bg-surface-container font-semibold" data-filter="dishes" type="button">
+          Signature Dishes
+        </button>
+<button class="gallery-tab px-space-lg py-space-sm rounded-lg font-label-md text-label-md uppercase tracking-wider transition-all text-on-surface-variant hover:text-primary hover:bg-surface-container font-semibold" data-filter="events" type="button">
+          Events &amp; Banquets
+        </button>
+</div>
+</div>
+</section>
+<!-- Gallery Grid Container -->
+<section class="w-full px-gutter pb-space-xl">
+<div class="w-full max-w-7xl mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter" id="gallery-container">
+<!-- Item 1: Interior 1 -->
+<article class="gallery-item group relative rounded-xl overflow-hidden bg-surface-container-low shadow-md transition-all duration-300 hover:shadow-xl hover:-translate-y-1 flex flex-col" data-category="interior" data-index="0">
+<div class="relative w-full h-80 overflow-hidden bg-surface-container-highest cursor-pointer" onclick="openLightbox(0)">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Opulent royal grand dining hall with sparkling tiered crystal chandeliers, plush burgundy velvet chairs, intricately sculpted 24-karat gold-leaf pillars, gleaming marble floors reflecting warm ambient candlelight, and classical Mughal arches with aristocrats dining in soft evening light." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCny-_1ITtctZyZpPwK4HHIAeIWwHYlO67sQzDMO_VM-1u1NUFRrwEPAl8dycnmvZu1P73gcfIyjZCE4OrFmXGqOVcR4Ss4Si59CNd0wJmC2Vv_3_Mor3iMPVwlgfMqgij2ksoMHBHImDWpqGkeAQ3hCVmUA2s9wvnFU9aZPK2fvbj6rrqNgtdMR4lHo8CeUW64adWmWWBUp1w6m_UbSlg9LaHWrZE_EOvKyCU3RnVwfFZ1YxODd9YX"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+<div class="absolute top-space-sm left-space-sm">
+<span class="px-space-sm py-space-xs rounded bg-surface/90 backdrop-blur-sm text-primary font-label-sm text-label-sm uppercase tracking-wider font-bold">
+                Interior &amp; Ambience
+              </span>
+</div>
+<div class="absolute bottom-space-md right-space-md w-10 h-10 rounded-full bg-secondary-container text-on-secondary-fixed flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all transform scale-90 group-hover:scale-100 shadow-lg">
+<span class="material-symbols-outlined text-[20px]">zoom_in</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col justify-between flex-grow">
+<div>
+<div class="flex items-center justify-between gap-space-sm mb-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-primary tracking-tight">The Grand Dining Hall</h3>
+<span class="text-secondary font-label-sm text-label-sm">✦ Imperial Wing</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Chandelier-lit royal hall with plush velvet burgundy seating, ornate gold pillars, and handcrafted teak woodwork.
+              </p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between text-label-sm font-label-sm text-outline">
+<span>View: Central Pavilion</span>
+<button class="text-secondary hover:text-primary transition-colors flex items-center gap-space-xs" onclick="openLightbox(0)" type="button">
+<span>Inspect Exhibit</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Item 2: Food 1 -->
+<article class="gallery-item group relative rounded-xl overflow-hidden bg-surface-container-low shadow-md transition-all duration-300 hover:shadow-xl hover:-translate-y-1 flex flex-col" data-category="dishes" data-index="1">
+<div class="relative w-full h-80 overflow-hidden bg-surface-container-highest cursor-pointer" onclick="openLightbox(1)">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Traditional earthen handi pot brimming with aromatic saffron dum biryani sealed with golden dough pastry, tender marinated cuts of lamb, garnished with fresh mint sprigs, crisp caramelized onions, and real edible silver leaf, surrounded by glowing red coals and curling spice-infused steam." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDRd853JntGssN5KEzDv-Vz80W8QgEH-NnYnvZ9AmKEXvydPYLYvN6Zp6eke0acBUk1UdJ1qHpiOfEiEYzo5dTviLWY5e15Lh2kzrv8Ad-WchfpblY2q35bT1YXMe-EWJpoKGzmS8gP0VKLsnVdR42qc9lc2_czxYb3F2GF0DjdGYi4Uddiz_XsVazYpChYJo1rTVmMJs4-vQH19HyDgCWc_tRsaUdx8YArKayh5g6j2VlwObk-4OAH"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+<div class="absolute top-space-sm left-space-sm">
+<span class="px-space-sm py-space-xs rounded bg-surface/90 backdrop-blur-sm text-primary font-label-sm text-label-sm uppercase tracking-wider font-bold">
+                Signature Dishes
+              </span>
+</div>
+<div class="absolute bottom-space-md right-space-md w-10 h-10 rounded-full bg-secondary-container text-on-secondary-fixed flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all transform scale-90 group-hover:scale-100 shadow-lg">
+<span class="material-symbols-outlined text-[20px]">zoom_in</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col justify-between flex-grow">
+<div>
+<div class="flex items-center justify-between gap-space-sm mb-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-primary tracking-tight">The Signature Dum Biryani</h3>
+<span class="text-secondary font-label-sm text-label-sm">✦ Saffron Dum</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Earthen handi cooked on slow-burning charcoals, revealing layered aromatic saffron steam and tender royal lamb.
+              </p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between text-label-sm font-label-sm text-outline">
+<span>Chef: Master Khansama</span>
+<button class="text-secondary hover:text-primary transition-colors flex items-center gap-space-xs" onclick="openLightbox(1)" type="button">
+<span>Inspect Exhibit</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Item 3: Interior 2 -->
+<article class="gallery-item group relative rounded-xl overflow-hidden bg-surface-container-low shadow-md transition-all duration-300 hover:shadow-xl hover:-translate-y-1 flex flex-col" data-category="interior" data-index="2">
+<div class="relative w-full h-80 overflow-hidden bg-surface-container-highest cursor-pointer" onclick="openLightbox(2)">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="A private Sheesh Mahal mirrored dining alcove with thousands of convex hand-cut glass mirrors catching soft candlelight reflections, intimate silk banquettes in regal crimson and saffron silk cushions, personalized brass tables, and secluded aristocratic privacy." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCcHFMl9zTp0D9jGYbXLN2H80bLBzbX7KSZaN5kcklzktI5NfUOqk_CP_Qc294hHg1O2k0qocwotDoJIIK-ciFcabECUyggKricr6exVZ6WS9BkloO5eAIW6BcxFu3RskCG5gfYjWd0NAth7DqvOjlZjIbZvCkRA3_d700RdSw_etRv7k0_2q7EkaaFL4vug9bcuYdvxzhcOI9znbZZ3FiKNNNC62CVNcQntNTFqlq5avTMHHRA6vTy"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+<div class="absolute top-space-sm left-space-sm">
+<span class="px-space-sm py-space-xs rounded bg-surface/90 backdrop-blur-sm text-primary font-label-sm text-label-sm uppercase tracking-wider font-bold">
+                Interior &amp; Ambience
+              </span>
+</div>
+<div class="absolute bottom-space-md right-space-md w-10 h-10 rounded-full bg-secondary-container text-on-secondary-fixed flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all transform scale-90 group-hover:scale-100 shadow-lg">
+<span class="material-symbols-outlined text-[20px]">zoom_in</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col justify-between flex-grow">
+<div>
+<div class="flex items-center justify-between gap-space-sm mb-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-primary tracking-tight">Private Sheesh Mahal Alcove</h3>
+<span class="text-secondary font-label-sm text-label-sm">✦ Mirror Pavilion</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Intimate mirrored dining chamber designed for high-profile celebrations, VIP couples, and private banquet affairs.
+              </p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between text-label-sm font-label-sm text-outline">
+<span>Capacity: 2 to 6 Guests</span>
+<button class="text-secondary hover:text-primary transition-colors flex items-center gap-space-xs" onclick="openLightbox(2)" type="button">
+<span>Inspect Exhibit</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Item 4: Food 2 -->
+<article class="gallery-item group relative rounded-xl overflow-hidden bg-surface-container-low shadow-md transition-all duration-300 hover:shadow-xl hover:-translate-y-1 flex flex-col" data-category="dishes" data-index="3">
+<div class="relative w-full h-80 overflow-hidden bg-surface-container-highest cursor-pointer" onclick="openLightbox(3)">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Melt-in-mouth Galouti kebabs infused with royal potli spices served on ornate filigree silver platters alongside sweet saffron Sheermal flatbreads, vibrant fresh mint chutney, pickled baby onions, and micro herbs under soft golden restaurant lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA9sFXD8tdXizlctY2_ZM9JYbaWbkJM30iUA8UwDcffHO-XVH3D55B-lAs2VM63aEfFvkubXKTCASZyI8Ti16Ca5XDxs_OhYPWR-YiubX5HOpeYH0Hb8n5AtFOE1zbytWr1i8QaqzZVQpHLS1bCS9dwf1ZwYvALUpUKxppUfntVMMWcxvDdOWcoBfQrK2BSqIhmzlZAr34fcmCiih-wGMkE0os_bty1NT0Lm3xfZp9wVE1C47fUeCpj"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+<div class="absolute top-space-sm left-space-sm">
+<span class="px-space-sm py-space-xs rounded bg-surface/90 backdrop-blur-sm text-primary font-label-sm text-label-sm uppercase tracking-wider font-bold">
+                Signature Dishes
+              </span>
+</div>
+<div class="absolute bottom-space-md right-space-md w-10 h-10 rounded-full bg-secondary-container text-on-secondary-fixed flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all transform scale-90 group-hover:scale-100 shadow-lg">
+<span class="material-symbols-outlined text-[20px]">zoom_in</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col justify-between flex-grow">
+<div>
+<div class="flex items-center justify-between gap-space-sm mb-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-primary tracking-tight">Galouti Kebabs with Sheermal</h3>
+<span class="text-secondary font-label-sm text-label-sm">✦ Lucknowi Heritage</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Ultra-delicate smoked kebabs served atop handcrafted silver platters with aromatic saffron sheermal and spiced condiments.
+              </p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between text-label-sm font-label-sm text-outline">
+<span>Course: Royal Appetizer</span>
+<button class="text-secondary hover:text-primary transition-colors flex items-center gap-space-xs" onclick="openLightbox(3)" type="button">
+<span>Inspect Exhibit</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Item 5: Event 1 -->
+<article class="gallery-item group relative rounded-xl overflow-hidden bg-surface-container-low shadow-md transition-all duration-300 hover:shadow-xl hover:-translate-y-1 flex flex-col" data-category="events" data-index="4">
+<div class="relative w-full h-80 overflow-hidden bg-surface-container-highest cursor-pointer" onclick="openLightbox(4)">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Magnificent Royal Sangeet and banquet setup inside Deluxe Mahal with towering fresh marigold and jasmine flower canopies, dozens of glowing tall brass candelabras, intricately laid royal banquet tables with crystal stemware, and guests dressed in opulent traditional attire." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBBS0FowhFnYfDNsSZVvKqqzPOyPcncNkt-Ar6CGvgHUASx2rhMoeCRshyya0bhoAoDwXHkco8n9M0RUqGXU-dKyIZShLxyXa9W15SZoV2HMdS4fJ5MiikyTqbMiDppJhDckiw_chX8jRhqquRrzIKTjvjE1p0uao5jxvgVM2qNLBZgx6AWVtyRdaGGn1tXJ3PRQTKlaArB7WczzqoA8hnSem7Q7TmyggqqzN44kIAKGr4aScmI5sPc"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+<div class="absolute top-space-sm left-space-sm">
+<span class="px-space-sm py-space-xs rounded bg-surface/90 backdrop-blur-sm text-primary font-label-sm text-label-sm uppercase tracking-wider font-bold">
+                Events &amp; Banquets
+              </span>
+</div>
+<div class="absolute bottom-space-md right-space-md w-10 h-10 rounded-full bg-secondary-container text-on-secondary-fixed flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all transform scale-90 group-hover:scale-100 shadow-lg">
+<span class="material-symbols-outlined text-[20px]">zoom_in</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col justify-between flex-grow">
+<div>
+<div class="flex items-center justify-between gap-space-sm mb-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-primary tracking-tight">Royal Sangeet &amp; Banquet</h3>
+<span class="text-secondary font-label-sm text-label-sm">✦ Wedding Feast</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Lavishly decorated fresh flower canopies, glowing candelabras, and royal banquet arrangements honoring monumental celebrations.
+              </p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between text-label-sm font-label-sm text-outline">
+<span>Hall: Diwan-i-Khas</span>
+<button class="text-secondary hover:text-primary transition-colors flex items-center gap-space-xs" onclick="openLightbox(4)" type="button">
+<span>Inspect Exhibit</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Item 6: Food 3 -->
+<article class="gallery-item group relative rounded-xl overflow-hidden bg-surface-container-low shadow-md transition-all duration-300 hover:shadow-xl hover:-translate-y-1 flex flex-col" data-category="dishes" data-index="5">
+<div class="relative w-full h-80 overflow-hidden bg-surface-container-highest cursor-pointer" onclick="openLightbox(5)">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Dramatic flambé of Tandoori Jheenga jumbo king prawns glowing over live orange coals with delicate golden flames, roasted chili and carom marinade char, fresh lime wheels, and an energetic chef pouring aromatic aged rum reduction in an open brass kitchen." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCmQtQHzlK8JUPvTSESn_8ycgmu7h3koW43BLtBP6mSexNLJprCrqw-VzHYqhVr2acSUb8xdt8Zc8K94gPco_vmIMF63MJ8eCC1v-2fINmflpFpIPeMutCt0xiUelbOCdteCTER8l6HxTK-X4iK7lTOnQNokYWCmLvuL8PX4IzD3LG5eA18qLBEnolLM8_oxzLrSAHF0KwlmYY7xaOFwV613BQffW2BU87USBo1iw7KvfQA9-KMqI76"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+<div class="absolute top-space-sm left-space-sm">
+<span class="px-space-sm py-space-xs rounded bg-surface/90 backdrop-blur-sm text-primary font-label-sm text-label-sm uppercase tracking-wider font-bold">
+                Signature Dishes
+              </span>
+</div>
+<div class="absolute bottom-space-md right-space-md w-10 h-10 rounded-full bg-secondary-container text-on-secondary-fixed flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all transform scale-90 group-hover:scale-100 shadow-lg">
+<span class="material-symbols-outlined text-[20px]">zoom_in</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col justify-between flex-grow">
+<div>
+<div class="flex items-center justify-between gap-space-sm mb-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-primary tracking-tight">Tandoori Jheenga Flambé</h3>
+<span class="text-secondary font-label-sm text-label-sm">✦ Live Fire</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Jumbo ocean prawns chargrilled over red-hot coal pit with roasted Kashmiri masala and live rum flambé tableside.
+              </p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between text-label-sm font-label-sm text-outline">
+<span>Preparation: Coal Skewer</span>
+<button class="text-secondary hover:text-primary transition-colors flex items-center gap-space-xs" onclick="openLightbox(5)" type="button">
+<span>Inspect Exhibit</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Item 7: Interior 3 -->
+<article class="gallery-item group relative rounded-xl overflow-hidden bg-surface-container-low shadow-md transition-all duration-300 hover:shadow-xl hover:-translate-y-1 flex flex-col" data-category="interior" data-index="6">
+<div class="relative w-full h-80 overflow-hidden bg-surface-container-highest cursor-pointer" onclick="openLightbox(6)">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Traditional open artisan kitchen of Deluxe Mahal featuring gleaming hand-hammered copper tandoor ovens, clay pots, glowing charcoal hearths, and executive chefs in regal white kurtas and embroidered burgundy aprons deftly slapping breads and turning skewers." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA0fZsr03eN75Oulw6YyC8m2EG5UYjsDTrUJijcXaSGPxOGQSLzMxOHgabg41adewn5kA8G921f35IdLYLeZVOGZCbeily1UrZtLuKeNKndjwNMf9kzLfw--tFz8DfFhCXvvo2O1LLYX_UvRWOhu1wpApwjO45zCls7bXOcupaqz2602F2lt0GAl7JG14tXLuYMYr3PYO7d9MYOrTsMKvVTQgdgf9kJpiI76iOjAgaEJOFZS7BiopLt"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+<div class="absolute top-space-sm left-space-sm">
+<span class="px-space-sm py-space-xs rounded bg-surface/90 backdrop-blur-sm text-primary font-label-sm text-label-sm uppercase tracking-wider font-bold">
+                Interior &amp; Ambience
+              </span>
+</div>
+<div class="absolute bottom-space-md right-space-md w-10 h-10 rounded-full bg-secondary-container text-on-secondary-fixed flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all transform scale-90 group-hover:scale-100 shadow-lg">
+<span class="material-symbols-outlined text-[20px]">zoom_in</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col justify-between flex-grow">
+<div>
+<div class="flex items-center justify-between gap-space-sm mb-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-primary tracking-tight">The Open Tandoor &amp; Artisan Kitchen</h3>
+<span class="text-secondary font-label-sm text-label-sm">✦ Culinary Theater</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Hand-hammered copper tandoors, clay hearths, and master chefs working in heritage culinary synchronization.
+              </p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between text-label-sm font-label-sm text-outline">
+<span>View: Live Kitchen Stage</span>
+<button class="text-secondary hover:text-primary transition-colors flex items-center gap-space-xs" onclick="openLightbox(6)" type="button">
+<span>Inspect Exhibit</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Item 8: Food 4 -->
+<article class="gallery-item group relative rounded-xl overflow-hidden bg-surface-container-low shadow-md transition-all duration-300 hover:shadow-xl hover:-translate-y-1 flex flex-col" data-category="dishes" data-index="7">
+<div class="relative w-full h-80 overflow-hidden bg-surface-container-highest cursor-pointer" onclick="openLightbox(7)">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Luxurious dessert plating of Shahi Tukda crispy golden fried brioche soaked in saffron cardamom syrup, submerged in thick condensed rabri cream, showered with crushed pistachios, dried rose petals, and glittering genuine 24-karat edible gold leaf on a vintage bone china plate." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBg7R4E2sjnh4M6CK5kxsDMdhS96b8am8QA7wTY-NRLuHRumB14MnwE_2UYb_NCZIhLHWL6XT49vhrbtycWNYDv5Md95FlmnlexPCxrKIKIV-cI782AhmtIhhTfo5NN9CRfltXHgBkkH9HlWzp89f0VjI-6COIMkumGWjZrnLijFa8qPd1GB73XzVkJYJ72s11Q7tQyj3d-V0mWTPNqA7QDcFJpR2NqfFMPPgqCKsZHWwc06VLDelcv"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+<div class="absolute top-space-sm left-space-sm">
+<span class="px-space-sm py-space-xs rounded bg-surface/90 backdrop-blur-sm text-primary font-label-sm text-label-sm uppercase tracking-wider font-bold">
+                Signature Dishes
+              </span>
+</div>
+<div class="absolute bottom-space-md right-space-md w-10 h-10 rounded-full bg-secondary-container text-on-secondary-fixed flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all transform scale-90 group-hover:scale-100 shadow-lg">
+<span class="material-symbols-outlined text-[20px]">zoom_in</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col justify-between flex-grow">
+<div>
+<div class="flex items-center justify-between gap-space-sm mb-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-primary tracking-tight">Shahi Tukda &amp; Gold Leaf</h3>
+<span class="text-secondary font-label-sm text-label-sm">✦ Imperial Confection</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Crispy ghee brioche in slow-reduced saffron rabri, roasted Iranian pistachio nibs, and pure 24-karat edible vark.
+              </p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between text-label-sm font-label-sm text-outline">
+<span>Course: Royal Sweet Epilogue</span>
+<button class="text-secondary hover:text-primary transition-colors flex items-center gap-space-xs" onclick="openLightbox(7)" type="button">
+<span>Inspect Exhibit</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Item 9: Event 2 -->
+<article class="gallery-item group relative rounded-xl overflow-hidden bg-surface-container-low shadow-md transition-all duration-300 hover:shadow-xl hover:-translate-y-1 flex flex-col" data-category="events" data-index="8">
+<div class="relative w-full h-80 overflow-hidden bg-surface-container-highest cursor-pointer" onclick="openLightbox(8)">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Sophisticated corporate heritage gala dinner taking place under sweeping Mughal stone arches, bespoke linear wooden tables decorated with delicate brass lanterns, sommelier wine decanters, luxury corporate leaders engaged in discussion, and regal ambiance." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA8X96lO8_x2uEYzV1MF6nLQ8kDnOTSVyYLCF3jts5pXZrN9402z5ICWlAaVaQx333_8qL6yq_QRltE4ZGNCKGT7uxZnressFNMhNqfHMcedOGUJGoJ8B3db2Xrl_nF3BEF-JoTZhWrbfZUkQnAjL5cNAXZWzifqfLatWLzUjcOvBXDuQHbQdszdfd-NCIas5RoUhSNWSepF9BqO8EKHZr-o4KwvO6KN4aICej8W7PC5nq8AGXm7Pqr"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
+<div class="absolute top-space-sm left-space-sm">
+<span class="px-space-sm py-space-xs rounded bg-surface/90 backdrop-blur-sm text-primary font-label-sm text-label-sm uppercase tracking-wider font-bold">
+                Events &amp; Banquets
+              </span>
+</div>
+<div class="absolute bottom-space-md right-space-md w-10 h-10 rounded-full bg-secondary-container text-on-secondary-fixed flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all transform scale-90 group-hover:scale-100 shadow-lg">
+<span class="material-symbols-outlined text-[20px]">zoom_in</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col justify-between flex-grow">
+<div>
+<div class="flex items-center justify-between gap-space-sm mb-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-primary tracking-tight">Corporate Heritage Gala</h3>
+<span class="text-secondary font-label-sm text-label-sm">✦ Executive Retreat</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Curated dining experience tailored for diplomatic symposiums, board conventions, and private aristocratic gatherings.
+              </p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between text-label-sm font-label-sm text-outline">
+<span>Format: Multi-course Tasting</span>
+<button class="text-secondary hover:text-primary transition-colors flex items-center gap-space-xs" onclick="openLightbox(8)" type="button">
+<span>Inspect Exhibit</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- Section Divider with Geometric Rosette -->
+<div class="w-full max-w-7xl mx-auto px-gutter py-space-lg flex items-center justify-center gap-space-md">
+<div class="h-px bg-surface-variant flex-grow max-w-xs"></div>
+<span class="text-secondary font-title-lg">✦</span>
+<span class="text-primary font-label-sm uppercase tracking-widest">A Living Royal Legacy</span>
+<span class="text-secondary font-title-lg">✦</span>
+<div class="h-px bg-surface-variant flex-grow max-w-xs"></div>
+</div>
+<!-- 360° Virtual Walkthrough & Video Section -->
+<section class="w-full px-gutter py-space-xl bg-surface-container-low relative">
+<div class="w-full max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Video / 360 Visual Display -->
+<div class="lg:col-span-7 relative rounded-2xl overflow-hidden shadow-xl bg-primary aspect-video flex items-center justify-center group cursor-pointer" onclick="toggleVirtualTourPlay()">
+<img class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" data-alt="High-resolution panoramic snapshot of Deluxe Mahal's opulent multi-tiered courtyard with illuminated fountains, arches glowing in golden light, regal carpets, and candle lit tables waiting for arrival." id="tour-thumbnail" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQSDNGuIG5qx-mrA8yvXev4-NPlTuSDTn-kwA7HOI6L-4GRSej_4U65k7WFqKHUvhpuv11pyxYqUsb_l20IuRsmz1C0-yaKd4X_YN7e_31dEpo73buZmcagY27o7tt4_rWZ9ExDyWSNF8TIH9gHQ9W6hcwCWCj7we6nu_mZnv7g44Fi5wpxj1BPYXKyxfkkNcRLCk6GOmyxtHo0HBYcMjSzzEmu9buAQ5mXz4y21Wio1dHNpTLwhdG"/>
+<div class="absolute inset-0 bg-primary/40 group-hover:bg-primary/30 transition-colors"></div>
+<!-- Center Play Button with Radiating Pulse Rings -->
+<div class="relative z-10 flex flex-col items-center gap-space-sm">
+<div class="relative flex items-center justify-center">
+<span class="absolute w-24 h-24 rounded-full bg-secondary-container/40 animate-ping"></span>
+<div class="w-20 h-20 rounded-full bg-secondary-container text-on-secondary-fixed flex items-center justify-center shadow-[0_4px_24px_rgba(252,191,85,0.6)] group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[36px]" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+</div>
+</div>
+<span class="font-label-lg text-label-lg text-on-primary uppercase tracking-widest drop-shadow-md">Launch 360° Panorama</span>
+</div>
+<!-- 360 Tag Badge -->
+<div class="absolute top-space-md left-space-md bg-surface/90 backdrop-blur-md px-space-md py-space-xs rounded-full flex items-center gap-space-xs text-primary font-label-sm text-label-sm shadow-md">
+<span class="material-symbols-outlined text-[16px] text-secondary">view_in_ar</span>
+<span class="font-bold">Virtual Spatial Walkthrough</span>
+</div>
+</div>
+<!-- Narrative & Direct Action -->
+<div class="lg:col-span-5 flex flex-col gap-space-md">
+<div class="inline-flex items-center gap-space-xs text-secondary font-label-md text-label-md uppercase tracking-wider">
+<span class="material-symbols-outlined text-[18px]">explore</span>
+<span>Spatial Experience</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">
+          Take a 360° Virtual Walkthrough of Deluxe Mahal
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+          Traverse our gilded archways, preview specific pavilion alcoves, inspect private dining halls, and encounter the regal aura before crossing our threshold.
+        </p>
+<div class="flex flex-col gap-space-sm bg-surface p-space-md rounded-xl shadow-sm">
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">check_circle</span>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-primary">Preview Table Sightlines</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Select your preferred alcove or dining view prior to reservation.</span>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">check_circle</span>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-primary">Inspect Banquet Configurations</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Seamless floorplan previews for up to 300 seated banquet guests.</span>
+</div>
+</div>
+</div>
+<div class="flex flex-wrap items-center gap-space-md pt-space-xs">
+<a class="inline-flex items-center justify-center gap-space-xs px-space-lg py-space-md bg-secondary-container hover:bg-secondary text-on-secondary-fixed hover:text-on-secondary rounded-lg font-label-lg text-label-lg uppercase tracking-wider shadow-md transition-all" data-path="reservations" href="contact.html#reservationForm">
+<span class="material-symbols-outlined text-[18px]">event_seat</span>
+<span>Reserve Table from Tour</span>
+</a>
+<button class="inline-flex items-center justify-center gap-space-xs px-space-lg py-space-md bg-surface-container hover:bg-surface-variant text-primary rounded-lg font-label-lg text-label-lg uppercase tracking-wider transition-all" onclick="toggleVirtualTourPlay()" type="button">
+<span class="material-symbols-outlined text-[18px]">fullscreen</span>
+<span>Full Window View</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Lightbox Modal -->
+<div class="fixed inset-0 z-50 hidden bg-primary/95 backdrop-blur-md flex items-center justify-center p-gutter transition-all duration-300" id="lightbox-modal">
+<div class="relative w-full max-w-5xl bg-surface rounded-2xl overflow-hidden shadow-2xl flex flex-col lg:flex-row max-h-[92vh]">
+<!-- Close Button -->
+<button aria-label="Close modal" class="absolute top-space-md right-space-md z-30 w-10 h-10 rounded-full bg-surface-container text-primary hover:bg-primary hover:text-on-primary flex items-center justify-center transition-all shadow-md" onclick="closeLightbox()" type="button">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+<!-- Main Image Viewport with Nav Overlays -->
+<div class="relative lg:w-2/3 bg-black flex items-center justify-center min-h-[350px] lg:min-h-[550px] overflow-hidden">
+<img class="w-full h-full object-contain max-h-[600px]" data-alt="Enlarged detailed display of the selected imperial culinary or architectural subject from Deluxe Mahal." id="lightbox-image" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCLkbrQmh7eblFDAMG8-BKFhnmfbgxOl8X0ozMwwXkz09pi_4JxuDSuQTKASEA1VuqFT0QfM9WmYx_f6SdBvxdx6khLkkMh92sLYSMw2iWV3uJ6A0Ypecs4mMlsFSY5HY2Efx4W6rfa8vUQqR2YboH3CLmFS0aGuC6Yy-T9gGj3n261KWW8GSDGOwwbd2KR4yb0LkcxeZgTiPgoMCgM-n5kwz1GZEVDg8FP2EqwKbj7UO-dAARq6wp4"/>
+<!-- Prev Button -->
+<button aria-label="Previous photo" class="absolute left-space-md top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-surface/80 hover:bg-surface text-primary flex items-center justify-center shadow-lg transition-transform hover:scale-110" onclick="prevLightbox()" type="button">
+<span class="material-symbols-outlined text-[24px]">chevron_left</span>
+</button>
+<!-- Next Button -->
+<button aria-label="Next photo" class="absolute right-space-md top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-surface/80 hover:bg-surface text-primary flex items-center justify-center shadow-lg transition-transform hover:scale-110" onclick="nextLightbox()" type="button">
+<span class="material-symbols-outlined text-[24px]">chevron_right</span>
+</button>
+<!-- Counter overlay -->
+<div class="absolute bottom-space-md left-space-md px-space-md py-space-xs rounded-full bg-black/60 backdrop-blur-sm text-surface-bright font-label-sm text-label-sm">
+<span id="lightbox-counter">1 / 9</span>
+</div>
+</div>
+<!-- Lightbox Metadata & Story Side Panel -->
+<div class="lg:w-1/3 p-space-lg flex flex-col justify-between bg-surface-container-low overflow-y-auto">
+<div class="flex flex-col gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold" id="lightbox-category">
+              Restaurant Interior &amp; Ambience
+            </span>
+<h3 class="font-headline-md text-headline-md text-primary tracking-tight" id="lightbox-title">
+              The Grand Dining Hall
+            </h3>
+</div>
+<div class="h-px bg-surface-variant w-full"></div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed" id="lightbox-description">
+            Chandelier lit royal hall with plush velvet burgundy seating and gold pillars.
+          </p>
+<div class="flex flex-col gap-space-xs bg-surface p-space-md rounded-xl">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Curator Notes</span>
+<span class="font-body-sm text-body-sm text-on-surface" id="lightbox-notes">
+              Photographed during evening twilight hours using natural candlelight and warm incandescent chandeliers.
+            </span>
+</div>
+</div>
+<div class="mt-space-lg pt-space-md flex flex-col gap-space-sm">
+<a class="w-full py-space-sm bg-primary hover:bg-primary-container text-on-primary rounded-lg font-label-md text-label-md uppercase tracking-wider text-center transition-colors" data-path="reservations" href="contact.html#reservationForm">
+            Inquire About This Setting
+          </a>
+<button class="w-full py-space-xs text-on-surface-variant hover:text-primary font-label-sm text-label-sm uppercase tracking-wider text-center" onclick="closeLightbox()" type="button">
+            Return To Gallery
+          </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+  // Comprehensive Gallery Registry Data
+  const galleryItems = [
+    {
+      title: "The Grand Dining Hall",
+      category: "Restaurant Interior & Ambience",
+      categorySlug: "interior",
+      description: "Chandelier lit royal hall with plush velvet burgundy seating, gold pillars, and handcrafted Mughal ornamental woodwork.",
+      notes: "Features 24k gold gilded fluted columns and custom Murano chandeliers designed to evoke an authentic 18th-century court.",
+      alt: "Opulent royal grand dining hall with sparkling tiered crystal chandeliers, plush burgundy velvet chairs, intricately sculpted 24-karat gold-leaf pillars, gleaming marble floors reflecting warm ambient candlelight, and classical Mughal arches with aristocrats dining in soft evening light."
+    },
+    {
+      title: "The Signature Dum Biryani Presentation",
+      category: "Signature Dishes",
+      categorySlug: "dishes",
+      description: "Earthen handi cooked on slow-burning charcoals with saffron steam, aged basmati grains, and tender royal spiced lamb.",
+      notes: "Slow-dum cooked for six hours under an unbleached whole wheat dough seal with rare Kashmiri saffron and whole spices.",
+      alt: "Traditional earthen handi pot brimming with aromatic saffron dum biryani sealed with golden dough pastry, tender marinated cuts of lamb, garnished with fresh mint sprigs, crisp caramelized onions, and real edible silver leaf, surrounded by glowing red coals and curling spice-infused steam."
+    },
+    {
+      title: "Private Sheesh Mahal Alcove",
+      category: "Restaurant Interior & Ambience",
+      categorySlug: "interior",
+      description: "Intimate mirrored dining booth for couples and VIP guests framed with intricate glass mosaics and velvet comfort.",
+      notes: "Hand-pieced by master mirror artisans from Rajasthan, mirroring thousands of candlelight facets at dusk.",
+      alt: "A private Sheesh Mahal mirrored dining alcove with thousands of convex hand-cut glass mirrors catching soft candlelight reflections, intimate silk banquettes in regal crimson and saffron silk cushions, personalized brass tables, and secluded aristocratic privacy."
+    },
+    {
+      title: "Galouti Kebabs with Sheermal",
+      category: "Signature Dishes",
+      categorySlug: "dishes",
+      description: "Smoked melt-in-mouth kebabs served on silver platters with aromatic sweet saffron sheermal flatbread and mint chutney.",
+      notes: "Prepared according to a 160-year-old royal recipe utilizing 32 aromatic roasted spices and stone-ground rose petals.",
+      alt: "Melt-in-mouth Galouti kebabs infused with royal potli spices served on ornate filigree silver platters alongside sweet saffron Sheermal flatbreads, vibrant fresh mint chutney, pickled baby onions, and micro herbs under soft golden restaurant lighting."
+    },
+    {
+      title: "Royal Sangeet & Banquet Celebration",
+      category: "Events & Banquets",
+      categorySlug: "events",
+      description: "Lavishly decorated flower canopy, candlelit table arrangements, and regal crystal stemware for landmark galas.",
+      notes: "Accommodates up to 300 guests with custom silver-service dastarkhwan dining and royal reception stages.",
+      alt: "Magnificent Royal Sangeet and banquet setup inside Deluxe Mahal with towering fresh marigold and jasmine flower canopies, dozens of glowing tall brass candelabras, intricately laid royal banquet tables with crystal stemware, and guests dressed in opulent traditional attire."
+    },
+    {
+      title: "Tandoori Jheenga Flambé",
+      category: "Signature Dishes",
+      categorySlug: "dishes",
+      description: "Jumbo prawns chargrilled over live open coals, basted with spiced carom yogurt and finished with live tableside flambé.",
+      notes: "Sourced freshly each dawn and roasted inside intense clay hearths fueled by tamarind charcoal logs.",
+      alt: "Dramatic flambé of Tandoori Jheenga jumbo king prawns glowing over live orange coals with delicate golden flames, roasted chili and carom marinade char, fresh lime wheels, and an energetic chef pouring aromatic aged rum reduction in an open brass kitchen."
+    },
+    {
+      title: "The Open Tandoor & Artisan Kitchen",
+      category: "Restaurant Interior & Ambience",
+      categorySlug: "interior",
+      description: "Copper tandoors, clay ovens, and chefs in traditional royal attire executing age-old breadmaking and skewering.",
+      notes: "Transparent kitchen theater framed in antique brass and temperature-controlled observation glass.",
+      alt: "Traditional open artisan kitchen of Deluxe Mahal featuring gleaming hand-hammered copper tandoor ovens, clay pots, glowing charcoal hearths, and executive chefs in regal white kurtas and embroidered burgundy aprons deftly slapping breads and turning skewers."
+    },
+    {
+      title: "Shahi Tukda & Gold Leaf Dessert",
+      category: "Signature Dishes",
+      categorySlug: "dishes",
+      description: "Saffron milk reduction dessert garnished with 24k edible vark, pistachio slivers, and fragrant Persian rose essence.",
+      notes: "Reduced milk rabri infused with royal saffron strands harvested exclusively from the Pampore valley.",
+      alt: "Luxurious dessert plating of Shahi Tukda crispy golden fried brioche soaked in saffron cardamom syrup, submerged in thick condensed rabri cream, showered with crushed pistachios, dried rose petals, and glittering genuine 24-karat edible gold leaf on a vintage bone china plate."
+    },
+    {
+      title: "Corporate Heritage Gala",
+      category: "Events & Banquets",
+      categorySlug: "events",
+      description: "Exclusive networking dinner and distinguished corporate gatherings hosted beneath grand ornamental Mughal archways.",
+      notes: "Equipped with discreet audiovisual integration, private butler services, and sommelier-curated pairings.",
+      alt: "Sophisticated corporate heritage gala dinner taking place under sweeping Mughal stone arches, bespoke linear wooden tables decorated with delicate brass lanterns, sommelier wine decanters, luxury corporate leaders engaged in discussion, and regal ambiance."
+    }
+  ];
+
+  let currentPhotoIndex = 0;
+
+  // Filter Functionality
+  const filterTabs = document.querySelectorAll('.gallery-tab');
+  const galleryCards = document.querySelectorAll('.gallery-item');
+
+  filterTabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      // Toggle Tab Active Classes
+      filterTabs.forEach(t => {
+        t.classList.remove('bg-primary-container', 'text-on-primary', 'font-bold', 'shadow-md');
+        t.classList.add('text-on-surface-variant', 'font-semibold');
+      });
+      tab.classList.add('bg-primary-container', 'text-on-primary', 'font-bold', 'shadow-md');
+      tab.classList.remove('text-on-surface-variant');
+
+      const filterValue = tab.getAttribute('data-filter');
+
+      galleryCards.forEach(card => {
+        const itemCategory = card.getAttribute('data-category');
+        if (filterValue === 'all' || itemCategory === filterValue) {
+          card.classList.remove('hidden');
+          card.classList.add('flex');
+        } else {
+          card.classList.add('hidden');
+          card.classList.remove('flex');
+        }
+      });
+    });
+  });
+
+  // Lightbox Modal Controls
+  function openLightbox(index) {
+    currentPhotoIndex = index;
+    updateLightboxUI();
+    const modal = document.getElementById('lightbox-modal');
+    modal.classList.remove('hidden');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeLightbox() {
+    const modal = document.getElementById('lightbox-modal');
+    modal.classList.add('hidden');
+    document.body.style.overflow = '';
+  }
+
+  function nextLightbox() {
+    currentPhotoIndex = (currentPhotoIndex + 1) % galleryItems.length;
+    updateLightboxUI();
+  }
+
+  function prevLightbox() {
+    currentPhotoIndex = (currentPhotoIndex - 1 + galleryItems.length) % galleryItems.length;
+    updateLightboxUI();
+  }
+
+  function updateLightboxUI() {
+    const item = galleryItems[currentPhotoIndex];
+    const imageEl = document.getElementById('lightbox-image');
+    imageEl.src = 'placeholder';
+    imageEl.setAttribute('data-alt', item.alt);
+
+    document.getElementById('lightbox-title').textContent = item.title;
+    document.getElementById('lightbox-category').textContent = item.category;
+    document.getElementById('lightbox-description').textContent = item.description;
+    document.getElementById('lightbox-notes').textContent = item.notes;
+    document.getElementById('lightbox-counter').textContent = `${currentPhotoIndex + 1} / ${galleryItems.length}`;
+  }
+
+  // Keyboard Navigation for Lightbox
+  window.addEventListener('keydown', (e) => {
+    const modal = document.getElementById('lightbox-modal');
+    if (!modal.classList.contains('hidden')) {
+      if (e.key === 'Escape') closeLightbox();
+      if (e.key === 'ArrowRight') nextLightbox();
+      if (e.key === 'ArrowLeft') prevLightbox();
+    }
+  });
+
+  // Modal Backdrop Click to Close
+  document.getElementById('lightbox-modal').addEventListener('click', (e) => {
+    if (e.target.id === 'lightbox-modal') {
+      closeLightbox();
+    }
+  });
+
+  // Virtual Tour Feedback
+  function toggleVirtualTourPlay() {
+    const thumb = document.getElementById('tour-thumbnail');
+    if (thumb) {
+      thumb.classList.toggle('scale-110');
+      // Subtle pulse indication for user interaction
+      const modalNotice = document.createElement('div');
+      modalNotice.className = 'fixed bottom-8 right-8 bg-primary text-on-primary px-space-lg py-space-sm rounded-lg shadow-2xl z-50 flex items-center gap-space-sm font-label-md text-label-md transition-opacity duration-500';
+      modalNotice.innerHTML = '<span class="material-symbols-outlined text-secondary-fixed">view_in_ar</span> 360° Spatial Panorama Loading...';
+      document.body.appendChild(modalNotice);
+      setTimeout(() => {
+        modalNotice.style.opacity = '0';
+        setTimeout(() => modalNotice.remove(), 500);
+      }, 2400);
+    }
+  }
+</script></main><footer class="w-full bg-primary text-on-primary pt-space-xl pb-space-lg"><div class="w-full px-gutter"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter mb-space-xl"><div class="flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><div class="w-9 h-9 rounded-lg bg-primary-container flex items-center justify-center text-secondary-fixed"><span class="material-symbols-outlined text-[20px]">hotel_class</span></div><span class="font-headline-sm text-headline-sm text-surface-bright">Deluxe Mahal</span></div><p class="font-body-sm text-body-sm text-outline-variant leading-relaxed">Embodying centuries of aristocratic hospitality and imperial feast traditions. Prepared by master khansamas honoring royal Mughal and Awadhi culinary artistry.</p><div class="flex items-center gap-space-sm text-secondary-fixed"><a aria-label="Dining Reviews" class="w-8 h-8 rounded bg-primary-container flex items-center justify-center hover:bg-secondary-container hover:text-on-secondary-fixed transition-colors" href="#"><span class="material-symbols-outlined text-[16px]">grade</span></a><a aria-label="Culinary Visuals" class="w-8 h-8 rounded bg-primary-container flex items-center justify-center hover:bg-secondary-container hover:text-on-secondary-fixed transition-colors" href="#"><span class="material-symbols-outlined text-[16px]">photo_camera</span></a><a aria-label="Direct Inquiries" class="w-8 h-8 rounded bg-primary-container flex items-center justify-center hover:bg-secondary-container hover:text-on-secondary-fixed transition-colors" href="#"><span class="material-symbols-outlined text-[16px]">mail</span></a><a aria-label="Location Map" class="w-8 h-8 rounded bg-primary-container flex items-center justify-center hover:bg-secondary-container hover:text-on-secondary-fixed transition-colors" href="#"><span class="material-symbols-outlined text-[16px]">pin_drop</span></a></div></div><div class="flex flex-col gap-space-md"><span class="font-title-md text-title-md text-secondary-fixed uppercase tracking-wider">Royal Exploration</span><div class="flex flex-col gap-space-sm font-body-sm text-body-sm"><a class="text-outline-variant hover:text-surface-bright transition-colors" data-path="home" href="index.html">Home Canvas</a><a class="text-outline-variant hover:text-surface-bright transition-colors" data-path="about-us" href="about.html">Our Royal Heritage</a><a class="text-outline-variant hover:text-surface-bright transition-colors" data-path="menu" href="menu.html">Imperial Dastarkhwan Menu</a><a class="text-outline-variant hover:text-surface-bright transition-colors" data-path="gallery" href="gallery.html">The Grand Gallery</a><a class="text-outline-variant hover:text-surface-bright transition-colors" data-path="contact" href="contact.html">Contact &amp; Valet Services</a><a class="text-outline-variant hover:text-surface-bright transition-colors" data-path="reservations" href="contact.html#reservationForm">Reserve a Royal Pavilion</a></div></div><div class="flex flex-col gap-space-md"><span class="font-title-md text-title-md text-secondary-fixed uppercase tracking-wider">Signature Masterpieces</span><div class="flex flex-col gap-space-sm font-body-sm text-body-sm text-outline-variant"><div class="flex flex-col"><span class="text-surface-bright font-title-md">Mughlai Dum Biryani</span><span class="text-label-sm text-secondary-fixed">Slow-cooked tender lamb in saffron seal</span></div><div class="flex flex-col"><span class="text-surface-bright font-title-md">Shahi Tukda</span><span class="text-label-sm text-secondary-fixed">Crisp brioche in saffron rabri &amp; edible silver</span></div><div class="flex flex-col"><span class="text-surface-bright font-title-md">Zafrani Kebab</span><span class="text-label-sm text-secondary-fixed">Charcoal-smoked spiced supreme cuts</span></div></div></div><div class="flex flex-col gap-space-md"><span class="font-title-md text-title-md text-secondary-fixed uppercase tracking-wider">Private Banquet Guild</span><p class="font-body-sm text-body-sm text-outline-variant">Subscribe for seasonal private tasting invitations, royal banquet previews, and chef's table dispatches.</p><div class="flex flex-col gap-space-sm"><div class="flex rounded-lg overflow-hidden bg-primary-container p-space-xs"><input class="w-full px-space-sm py-space-xs bg-transparent text-surface-bright placeholder-outline focus:outline-none font-body-sm text-body-sm" placeholder="Your royal courier email..." type="email"/><button class="px-space-md py-space-xs bg-secondary-container hover:bg-secondary text-on-secondary-fixed hover:text-on-secondary rounded font-label-md text-label-md transition-colors" type="button"><span class="material-symbols-outlined text-[16px]">send</span></button></div><span class="font-label-sm text-label-sm text-outline">Discreet notifications. Never commercial spam.</span></div></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md font-label-sm text-label-sm text-outline"><div class="flex items-center gap-space-xs"><span>✦</span><span>© 2025 Deluxe Mahal Restaurant. All rights reserved.</span></div><div class="flex items-center gap-space-lg"><a class="hover:text-surface-bright transition-colors" href="#">Private Dining Charter</a><a class="hover:text-surface-bright transition-colors" href="#">Dietary Protocol</a><a class="hover:text-surface-bright transition-colors" href="#">Concierge Desk</a></div></div></div></footer></body></html>

@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-tertiary-fixed":"#2c1600","on-secondary-fixed":"#281900","inverse-on-surface":"#f2f0ed","secondary":"#7f5700","on-secondary":"#ffffff","surface-variant":"#e4e2de","on-primary-fixed-variant":"#763037","on-primary-fixed":"#3d040e","on-primary-container":"#ca7379","primary-fixed-dim":"#ffb3b6","tertiary-fixed":"#ffdcbd","surface-container-highest":"#e4e2de","inverse-surface":"#30312e","on-tertiary":"#ffffff","secondary-container":"#fcbf55","on-tertiary-container":"#b6824b","outline-variant":"#d9c1c1","on-secondary-fixed-variant":"#604100","surface-container-high":"#eae8e4","outline":"#867273","tertiary-container":"#391f00","tertiary-fixed-dim":"#f7bb7e","inverse-primary":"#ffb3b6","on-tertiary-fixed-variant":"#663e0b","on-primary":"#ffffff","surface-container-lowest":"#ffffff","primary-container":"#4a0e17","on-surface-variant":"#544343","primary":"#2a0006","error-container":"#ffdad6","surface-container":"#efeeea","background":"#fbf9f5","on-error-container":"#93000a","surface":"#fbf9f5","error":"#ba1a1a","tertiary":"#1c0c00","surface-tint":"#93474d","on-error":"#ffffff","on-secondary-container":"#724d00","on-surface":"#1b1c1a","surface-container-low":"#f5f3ef","secondary-fixed-dim":"#f9bc53","primary-fixed":"#ffdada","surface-bright":"#fbf9f5","on-background":"#1b1c1a","secondary-fixed":"#ffdeae","surface-dim":"#dbdad6"},borderRadius:{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},spacing:{"margin":"3rem","space-md":"1rem","space-lg":"1.75rem","space-sm":"0.5rem","space-xl":"2.75rem","gutter":"1.5rem","margin-mobile":"1.25rem","space-xs":"0.25rem","gutter-mobile":"1rem"},fontFamily:{"headline-lg-mobile":["Playfair Display"],"body-lg":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"display-lg-mobile":["Playfair Display"],"display-lg":["Playfair Display"],"title-md":["Plus Jakarta Sans"],"headline-md":["Playfair Display"],"body-sm":["Plus Jakarta Sans"],"title-lg":["Playfair Display"],"label-lg":["Plus Jakarta Sans"],"headline-lg":["Playfair Display"],"headline-sm":["Playfair Display"],"label-md":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"]},fontSize:{"headline-lg-mobile":["30px",{"lineHeight":"38px","letterSpacing":"0","fontWeight":"600"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.04em","fontWeight":"500"}],"display-lg-mobile":["38px",{"lineHeight":"46px","letterSpacing":"-0.01em","fontWeight":"700"}],"display-lg":["56px",{"lineHeight":"64px","letterSpacing":"-0.02em","fontWeight":"700"}],"title-md":["16px",{"lineHeight":"24px","letterSpacing":"0.01em","fontWeight":"600"}],"headline-md":["28px",{"lineHeight":"36px","fontWeight":"600"}],"body-sm":["13px",{"lineHeight":"20px","fontWeight":"400"}],"title-lg":["20px",{"lineHeight":"28px","fontWeight":"600"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.08em","fontWeight":"600"}],"headline-lg":["40px",{"lineHeight":"48px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-sm":["22px",{"lineHeight":"30px","fontWeight":"500"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.06em","fontWeight":"600"}],"body-md":["15px",{"lineHeight":"24px","fontWeight":"400"}]}}}};</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-md shadow-[0_4px_24px_rgba(74,14,23,0.06)]"><div class="bg-primary text-on-primary py-space-xs px-gutter"><div class="w-full flex flex-wrap items-center justify-between text-label-sm font-label-sm"><div class="flex items-center gap-gutter flex-wrap"><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[15px] text-secondary-fixed">call</span><span>+1 (555) 789-2345</span></div><span class="text-secondary-fixed/40 hidden sm:inline">✦</span><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[15px] text-secondary-fixed">location_on</span><span>108 Royal Heritage Boulevard, Downtown</span></div><span class="text-secondary-fixed/40 hidden lg:inline">✦</span><div class="hidden lg:flex items-center gap-space-xs"><span class="material-symbols-outlined text-[15px] text-secondary-fixed">schedule</span><span>Mon - Sun: 11:30 AM - 11:00 PM</span></div></div><div class="flex items-center gap-space-md"><a class="flex items-center gap-space-xs text-secondary-fixed hover:text-on-primary transition-colors" data-path="reservations" href="contact.html#reservationForm"><span class="material-symbols-outlined text-[14px]">event_seat</span><span>Quick Table Booking</span></a></div></div></div><div class="h-20 w-full px-gutter flex items-center justify-between"><a class="flex items-center gap-space-md group" data-path="home" href="index.html"><div class="w-10 h-10 rounded-lg bg-primary-container flex items-center justify-center text-secondary-fixed shadow-[0_2px_8px_rgba(74,14,23,0.2)]"><span class="material-symbols-outlined text-[24px]">restaurant</span></div><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight group-hover:text-primary-container transition-colors">Deluxe Mahal</span><span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary">Royal Culinary Heritage</span></div></a><nav class="hidden md:flex items-center gap-space-sm" data-active-classes="bg-primary-container text-on-primary font-bold rounded-lg"><a class="px-space-md py-space-sm text-on-surface-variant hover:text-on-surface transition-colors font-label-md text-label-md uppercase tracking-wider" data-path="home" href="index.html">Home</a><a class="px-space-md py-space-sm text-on-surface-variant hover:text-on-surface transition-colors font-label-md text-label-md uppercase tracking-wider" data-path="about-us" href="about.html">About Us</a><a class="px-space-md py-space-sm text-on-surface-variant hover:text-on-surface transition-colors font-label-md text-label-md uppercase tracking-wider" data-path="menu" href="menu.html">Menu</a><a class="px-space-md py-space-sm text-on-surface-variant hover:text-on-surface transition-colors font-label-md text-label-md uppercase tracking-wider" data-path="gallery" href="gallery.html">Gallery</a><a aria-current="page" class="px-space-md py-space-sm transition-colors uppercase tracking-wider bg-primary-container text-on-primary font-bold rounded-lg" data-path="contact" href="contact.html">Contact</a></nav><div class="flex items-center gap-space-md"><a class="hidden sm:inline-flex items-center justify-center px-space-lg py-space-sm bg-secondary-container hover:bg-secondary text-on-secondary-fixed hover:text-on-secondary font-label-lg text-label-lg uppercase tracking-wider rounded-lg shadow-[0_4px_16px_rgba(252,191,85,0.35)] transition-all" data-path="reservations" href="contact.html#reservationForm">Book a Table</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface"><div class="flex flex-col w-full">
+<!-- Subtle Ambient Glow -->
+<div class="relative w-full overflow-hidden">
+<div class="absolute -top-32 -right-32 w-96 h-96 rounded-full bg-secondary-container/10 blur-3xl pointer-events-none"></div>
+<div class="absolute top-1/2 -left-32 w-[32rem] h-[32rem] rounded-full bg-primary/5 blur-3xl pointer-events-none"></div>
+<!-- Editorial Header Canvas -->
+<section class="relative w-full px-gutter pt-space-xl pb-space-lg">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md border-b-0 pb-space-md">
+<div class="max-w-3xl">
+<div class="inline-flex items-center gap-space-xs px-space-sm py-1 rounded bg-secondary-container/15 text-primary mb-space-sm">
+<span class="material-symbols-outlined text-[14px] text-secondary">hotel_class</span>
+<span class="font-label-md text-label-md uppercase tracking-widest text-secondary font-bold">Imperial Concierge &amp; Salon Service</span>
+</div>
+<h1 class="font-display-lg text-display-lg text-primary tracking-tight font-headline-lg">
+              Get in Touch <span class="italic font-normal text-secondary">&amp;</span> Table Reservations
+            </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-space-sm max-w-2xl leading-relaxed">
+              Whether you seek an intimate dining experience, celebratory banquet, or royal catering inquiry, our concierges are at your service.
+            </p>
+</div>
+<div class="flex items-center gap-space-md">
+<div class="hidden lg:flex flex-col items-end">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-outline">Response Protocol</span>
+<span class="font-title-md text-title-md text-primary font-semibold">Under 15 Minutes</span>
+</div>
+<div class="w-12 h-12 rounded-full bg-surface-container-high flex items-center justify-center text-primary shadow-sm">
+<span class="material-symbols-outlined text-[24px]">support_agent</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Main Content: Side-by-Side Architectural Layout -->
+<section class="w-full px-gutter pb-space-xl">
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
+<!-- Left Column: Contact Cards, Timings, & Royal Badges (5 cols) -->
+<div class="lg:col-span-5 flex flex-col gap-space-md">
+<!-- Address Card -->
+<div class="bg-surface-container-low rounded-xl p-space-lg shadow-sm hover:shadow-md transition-shadow relative overflow-hidden group">
+<div class="absolute top-0 right-0 p-space-md opacity-10 group-hover:opacity-20 transition-opacity">
+<span class="material-symbols-outlined text-primary text-6xl">location_city</span>
+</div>
+<div class="flex items-center gap-space-sm mb-space-sm">
+<div class="w-8 h-8 rounded bg-primary-container text-secondary-fixed flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]">pin_drop</span>
+</div>
+<span class="font-label-md text-label-md uppercase tracking-wider text-secondary font-bold">Imperial Seat</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs">Downtown Historic Quarter</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+              108 Royal Heritage Boulevard, Downtown Historic Quarter, Suite 400
+            </p>
+<div class="flex items-center gap-space-md pt-space-xs">
+<a class="inline-flex items-center gap-space-xs font-label-md text-label-md text-primary font-bold hover:text-secondary transition-colors underline decoration-secondary-fixed decoration-2 underline-offset-4" href="#map-section">
+<span>View Estate Cartography</span>
+<span class="material-symbols-outlined text-[16px]">arrow_downward</span>
+</a>
+<span class="text-outline-variant">✦</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Gate Valet Attendant On Duty</span>
+</div>
+</div>
+<!-- Direct Inquiries & Communications -->
+<div class="bg-surface-container-low rounded-xl p-space-lg shadow-sm hover:shadow-md transition-shadow">
+<div class="flex items-center gap-space-sm mb-space-md">
+<div class="w-8 h-8 rounded bg-primary-container text-secondary-fixed flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]">perm_phone_msg</span>
+</div>
+<span class="font-label-md text-label-md uppercase tracking-wider text-secondary font-bold">Direct Channels</span>
+</div>
+<div class="flex flex-col gap-space-md">
+<div class="flex items-start justify-between p-space-sm rounded bg-surface-container">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-outline uppercase">Guest Table Bookings</span>
+<a class="font-title-md text-title-md text-primary hover:text-secondary transition-colors" href="tel:+15557892345">+1 (555) 789-2345</a>
+</div>
+<span class="material-symbols-outlined text-secondary text-[20px] mt-1">call</span>
+</div>
+<div class="flex items-start justify-between p-space-sm rounded bg-surface-container">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-outline uppercase">Grand Banquets &amp; Sovereign Events</span>
+<a class="font-title-md text-title-md text-primary hover:text-secondary transition-colors" href="tel:+15557892346">+1 (555) 789-2346</a>
+</div>
+<span class="material-symbols-outlined text-secondary text-[20px] mt-1">celebration</span>
+</div>
+<div class="flex items-start justify-between p-space-sm rounded bg-surface-container">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-outline uppercase">Written Concierge Dispatch</span>
+<a class="font-title-md text-title-md text-primary hover:text-secondary transition-colors" href="mailto:reservations@deluxemahal.com">reservations@deluxemahal.com</a>
+</div>
+<span class="material-symbols-outlined text-secondary text-[20px] mt-1">outgoing_mail</span>
+</div>
+</div>
+</div>
+<!-- Operating Hours Card -->
+<div class="bg-primary text-on-primary rounded-xl p-space-lg shadow-md relative overflow-hidden">
+<div class="absolute -right-12 -bottom-12 w-48 h-48 rounded-full bg-secondary-container/10 blur-2xl"></div>
+<div class="flex items-center justify-between mb-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded bg-primary-container text-secondary-fixed flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]">hourglass_top</span>
+</div>
+<span class="font-label-md text-label-md uppercase tracking-wider text-secondary-fixed font-bold">Royal Dastarkhwan Hours</span>
+</div>
+<span class="px-space-xs py-0.5 rounded text-label-sm bg-secondary-container/20 text-secondary-fixed">Seven Days</span>
+</div>
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between border-b border-primary-container pb-space-xs">
+<div>
+<h4 class="font-title-md text-title-md text-surface-bright">Lunch Service</h4>
+<p class="font-body-sm text-body-sm text-outline-variant">A la carte &amp; Royal Thali</p>
+</div>
+<div class="text-right">
+<span class="font-title-md text-title-md text-secondary-fixed">11:30 AM – 3:30 PM</span>
+<p class="font-label-sm text-label-sm text-outline-variant">Last Seating 2:45 PM</p>
+</div>
+</div>
+<div class="flex items-center justify-between border-b border-primary-container pb-space-xs">
+<div>
+<h4 class="font-title-md text-title-md text-surface-bright">High Tea &amp; Sherbets</h4>
+<p class="font-body-sm text-body-sm text-outline-variant">Kashmiri Kahwa &amp; Confections</p>
+</div>
+<div class="text-right">
+<span class="font-title-md text-title-md text-secondary-fixed">4:00 PM – 6:00 PM</span>
+<p class="font-label-sm text-label-sm text-outline-variant">Courtyard Lounge</p>
+</div>
+</div>
+<div class="flex items-center justify-between">
+<div>
+<h4 class="font-title-md text-title-md text-surface-bright">Royal Dinner Banquet</h4>
+<p class="font-body-sm text-body-sm text-outline-variant">Candlelit Grand Degustation</p>
+</div>
+<div class="text-right">
+<span class="font-title-md text-title-md text-secondary-fixed">6:30 PM – 11:30 PM</span>
+<p class="font-label-sm text-label-sm text-outline-variant">Live Sitar Ensemble</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Amenities Badges Strip -->
+<div class="grid grid-cols-2 gap-space-sm">
+<div class="flex items-center gap-space-xs p-space-sm rounded-lg bg-surface-container-high text-on-surface">
+<span class="material-symbols-outlined text-[20px] text-secondary">local_parking</span>
+<span class="font-label-sm text-label-sm font-semibold">Valet Parking Available</span>
+</div>
+<div class="flex items-center gap-space-xs p-space-sm rounded-lg bg-surface-container-high text-on-surface">
+<span class="material-symbols-outlined text-[20px] text-secondary">accessible</span>
+<span class="font-label-sm text-label-sm font-semibold">Wheelchair Accessible</span>
+</div>
+<div class="flex items-center gap-space-xs p-space-sm rounded-lg bg-surface-container-high text-on-surface">
+<span class="material-symbols-outlined text-[20px] text-secondary">music_note</span>
+<span class="font-label-sm text-label-sm font-semibold">Live Sitar (Evenings)</span>
+</div>
+<div class="flex items-center gap-space-xs p-space-sm rounded-lg bg-surface-container-high text-on-surface">
+<span class="material-symbols-outlined text-[20px] text-secondary">verified</span>
+<span class="font-label-sm text-label-sm font-semibold">Halal Certified Kitchen</span>
+</div>
+</div>
+<!-- Visual Mood Anchor -->
+<div class="relative rounded-xl overflow-hidden shadow-sm h-48 w-full">
+<img class="w-full h-full object-cover" data-alt="Intimate candlelit dining table at Deluxe Mahal with polished brass cutlery, royal burgundy napkins, gold leaf tableware, and fragrant saffron water in crystal glasses." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCt5yF2Vbw7g7Sg__xVsSbw6TBuEHi1q38C2SYtak-rTDovfBJeTEzfob3VQ75_ASDDPcuKH24xWA2BNnXNRW5GB64p2C1inz2p496NJI88K2Q36GqvczWHXBSLHWRHWR7fH3O7ISPQptTkH5g7sZL76ZliG2NuflptZNYmrVLDTJbgZooTJDArow5z3xVxvfo8gJSnhppF_rQKQdFQjDxHnweooALxJk0s-APg6VX7vbGKOxNIrCVh"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent flex items-end p-space-md">
+<span class="font-title-md text-title-md text-on-primary">A century-old tradition of sovereign hospitality</span>
+</div>
+</div>
+</div>
+<!-- Right Column: Interactive Table Reservation Form (7 cols) -->
+<div class="lg:col-span-7 bg-surface-container-lowest rounded-xl p-space-lg lg:p-space-xl shadow-md relative">
+<div class="flex items-center justify-between mb-space-md border-b-0 pb-space-xs">
+<div>
+<span class="font-label-md text-label-md uppercase tracking-wider text-secondary font-bold">Imperial Protocol</span>
+<h2 class="font-headline-md text-headline-md text-primary">Table Reservation &amp; Salon Inquiry</h2>
+</div>
+<div class="text-right hidden sm:block">
+<span class="font-label-sm text-label-sm text-outline">Direct Confirmation</span>
+<p class="font-label-md text-label-md font-bold text-secondary">Instant SMS &amp; Email</p>
+</div>
+</div>
+<!-- Client-side Interactive Form -->
+<form class="flex flex-col gap-space-md" id="reservationForm" novalidate="">
+<!-- Row 1: Full Name & Email -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-on-surface font-semibold flex items-center justify-between" for="fullName">
+<span>Honored Guest Name *</span>
+<span class="text-error text-label-sm hidden" id="err-fullName">Required</span>
+</label>
+<div class="relative">
+<input class="w-full bg-surface-container-low px-space-md py- space-sm py-2.5 rounded text-body-md text-on-surface placeholder:text-outline focus:outline-none focus:bg-surface-container transition-all" id="fullName" name="fullName" placeholder="e.g. Lady Eleanor Vance" required="" type="text"/>
+</div>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-on-surface font-semibold flex items-center justify-between" for="emailAddress">
+<span>Courier / Email Address *</span>
+<span class="text-error text-label-sm hidden" id="err-email">Valid email required</span>
+</label>
+<div class="relative">
+<input class="w-full bg-surface-container-low px-space-md py-2.5 rounded text-body-md text-on-surface placeholder:text-outline focus:outline-none focus:bg-surface-container transition-all" id="emailAddress" name="emailAddress" placeholder="e.g. eleanor@vance-holdings.com" required="" type="email"/>
+</div>
+</div>
+</div>
+<!-- Row 2: Phone & Number of Guests -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-on-surface font-semibold flex items-center justify-between" for="phoneNumber">
+<span>Contact Phone Number *</span>
+<span class="text-error text-label-sm hidden" id="err-phone">Required (10+ digits)</span>
+</label>
+<input class="w-full bg-surface-container-low px-space-md py-2.5 rounded text-body-md text-on-surface placeholder:text-outline focus:outline-none focus:bg-surface-container transition-all" id="phoneNumber" name="phoneNumber" placeholder="+1 (555) 000-0000" required="" type="tel"/>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-on-surface font-semibold" for="guestCount">
+<span>Number of Distinguished Guests *</span>
+</label>
+<select class="w-full bg-surface-container-low px-space-md py-2.5 rounded text-body-md text-on-surface focus:outline-none focus:bg-surface-container transition-all cursor-pointer" id="guestCount" name="guestCount" required="">
+<option value="1-2 Guests">Intimate Party (1 – 2 Guests)</option>
+<option selected="" value="3-4 Guests">Family Ensemble (3 – 4 Guests)</option>
+<option value="5-8 Guests">Aristocratic Gathering (5 – 8 Guests)</option>
+<option value="Private Salon 9-20 Guests">Private Salon Sheesh Mahal (9 – 20 Guests)</option>
+<option value="Banquet 20+ Guests">Grand Imperial Banquet (20+ Guests)</option>
+</select>
+</div>
+</div>
+<!-- Row 3: Date & Time Slot -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-on-surface font-semibold flex items-center justify-between" for="reservationDate">
+<span>Reservation Date *</span>
+<span class="text-error text-label-sm hidden" id="err-date">Select valid date</span>
+</label>
+<input class="w-full bg-surface-container-low px-space-md py-2.5 rounded text-body-md text-on-surface focus:outline-none focus:bg-surface-container transition-all cursor-pointer" id="reservationDate" name="reservationDate" required="" type="date"/>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-on-surface font-semibold" for="timeSlot">
+<span>Seating Service &amp; Time Slot *</span>
+</label>
+<select class="w-full bg-surface-container-low px-space-md py-2.5 rounded text-body-md text-on-surface focus:outline-none focus:bg-surface-container transition-all cursor-pointer" id="timeSlot" name="timeSlot" required="">
+<optgroup label="Lunch Service (11:30 AM - 3:30 PM)">
+<option value="12:00 PM">12:00 PM - Early Luncheon</option>
+<option value="1:00 PM">1:00 PM - Prime Degustation</option>
+<option value="2:00 PM">2:00 PM - Afternoon Seating</option>
+</optgroup>
+<optgroup label="High Tea &amp; Refreshment (4:00 PM - 6:00 PM)">
+<option value="4:30 PM">4:30 PM - Saffron Tea &amp; Sweets</option>
+</optgroup>
+<optgroup label="Royal Dinner Banquet (6:30 PM - 11:30 PM)">
+<option selected="" value="7:00 PM">7:00 PM - Sunset Sitar Course</option>
+<option value="8:00 PM">8:00 PM - Prime Evening Banquet</option>
+<option value="9:00 PM">9:00 PM - Imperial Night Seating</option>
+<option value="10:00 PM">10:00 PM - Twilight Dining</option>
+</optgroup>
+</select>
+</div>
+</div>
+<!-- Row 4: Seating Preference Selector -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface font-semibold">Seating Preference &amp; Pavilion</label>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm">
+<label class="cursor-pointer">
+<input checked="" class="peer sr-only" name="seatingLocation" type="radio" value="Main Dining Hall"/>
+<div class="p-space-sm rounded-lg bg-surface-container-low peer-checked:bg-primary peer-checked:text-on-primary transition-all flex items-center justify-between shadow-sm">
+<div class="flex flex-col">
+<span class="font-title-md text-title-md">Main Dining Hall</span>
+<span class="font-label-sm text-label-sm text-outline peer-checked:text-secondary-fixed">Grand chandelier atmosphere</span>
+</div>
+<span class="material-symbols-outlined text-[20px]">room_service</span>
+</div>
+</label>
+<label class="cursor-pointer">
+<input class="peer sr-only" name="seatingLocation" type="radio" value="Mirrored Sheesh Mahal Alcove"/>
+<div class="p-space-sm rounded-lg bg-surface-container-low peer-checked:bg-primary peer-checked:text-on-primary transition-all flex items-center justify-between shadow-sm">
+<div class="flex flex-col">
+<span class="font-title-md text-title-md">Sheesh Mahal Alcove</span>
+<span class="font-label-sm text-label-sm text-outline peer-checked:text-secondary-fixed">Mirrored hand-etched privacy</span>
+</div>
+<span class="material-symbols-outlined text-[20px]">auto_awesome</span>
+</div>
+</label>
+<label class="cursor-pointer">
+<input class="peer sr-only" name="seatingLocation" type="radio" value="Outdoor Courtyard"/>
+<div class="p-space-sm rounded-lg bg-surface-container-low peer-checked:bg-primary peer-checked:text-on-primary transition-all flex items-center justify-between shadow-sm">
+<div class="flex flex-col">
+<span class="font-title-md text-title-md">Outdoor Courtyard</span>
+<span class="font-label-sm text-label-sm text-outline peer-checked:text-secondary-fixed">Fountain-side botanical terrace</span>
+</div>
+<span class="material-symbols-outlined text-[20px]">yard</span>
+</div>
+</label>
+<label class="cursor-pointer">
+<input class="peer sr-only" name="seatingLocation" type="radio" value="Royal Private Suite"/>
+<div class="p-space-sm rounded-lg bg-surface-container-low peer-checked:bg-primary peer-checked:text-on-primary transition-all flex items-center justify-between shadow-sm">
+<div class="flex flex-col">
+<span class="font-title-md text-title-md">Royal Private Suite</span>
+<span class="font-label-sm text-label-sm text-outline peer-checked:text-secondary-fixed">Dedicated butler &amp; private pantry</span>
+</div>
+<span class="material-symbols-outlined text-[20px]">castle</span>
+</div>
+</label>
+</div>
+</div>
+<!-- Row 5: Special Requests / Dietary Notes -->
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-on-surface font-semibold flex items-center justify-between" for="specialRequests">
+<span>Special Requests &amp; Dietary Notes</span>
+<span class="font-label-sm text-label-sm text-outline">Optional</span>
+</label>
+<textarea class="w-full bg-surface-container-low px-space-md py-space-sm rounded text-body-md text-on-surface placeholder:text-outline focus:outline-none focus:bg-surface-container transition-all resize-y" id="specialRequests" name="specialRequests" placeholder="Mention allergies (nuts, dairy, gluten), celebrations (anniversary cake, floral presentation), or customized spice tolerance preferences..." rows="3"></textarea>
+</div>
+<!-- Submit Action & Guarantee -->
+<div class="flex flex-col sm:flex-row items-center justify-between gap-space-md pt-space-xs">
+<div class="flex items-center gap-space-xs text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary">verified_user</span>
+<span>No reservation deposit charged for tables under 8 guests.</span>
+</div>
+<button class="w-full sm:w-auto px-space-xl py-space-sm bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg uppercase tracking-wider rounded-lg shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-space-xs group" id="submitBtn" type="submit">
+<span>Confirm Table Reservation</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">east</span>
+</button>
+</div>
+</form>
+<!-- Interactive Success Confirmation Modal / Banner (Hidden initially) -->
+<div class="hidden absolute inset-0 bg-surface/95 backdrop-blur-md rounded-xl p-space-xl flex-col items-center justify-center text-center z-20" id="confirmationDialog">
+<div class="w-16 h-16 rounded-full bg-secondary-container/20 text-secondary flex items-center justify-center mb-space-md animate-bounce">
+<span class="material-symbols-outlined text-[36px]">check_circle</span>
+</div>
+<span class="font-label-md text-label-md uppercase tracking-widest text-secondary font-bold">Reservation Recorded</span>
+<h3 class="font-headline-md text-headline-md text-primary mt-1 mb-space-xs" id="confirmGuestName">Table Secured</h3>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md mb-space-md" id="confirmDetails">
+              Your royal dining chapter has been registered. An imperial confirmation dispatch and valet pass have been sent to your email.
+            </p>
+<div class="p-space-md bg-surface-container rounded-lg text-left w-full max-w-md mb-space-md">
+<div class="flex justify-between font-label-sm text-label-sm py-1 border-b border-surface-container-high">
+<span class="text-outline">Seating Suite:</span>
+<span class="font-bold text-primary" id="confirmSeating">Main Dining Hall</span>
+</div>
+<div class="flex justify-between font-label-sm text-label-sm py-1 border-b border-surface-container-high">
+<span class="text-outline">Date &amp; Time:</span>
+<span class="font-bold text-primary" id="confirmDateTime">Dec 20, 2025 at 7:00 PM</span>
+</div>
+<div class="flex justify-between font-label-sm text-label-sm py-1">
+<span class="text-outline">Party Size:</span>
+<span class="font-bold text-primary" id="confirmGuests">4 Guests</span>
+</div>
+</div>
+<button class="px-space-lg py-space-sm bg-secondary-container hover:bg-secondary text-on-secondary-fixed hover:text-on-secondary rounded font-label-md text-label-md uppercase tracking-wider transition-all" id="resetFormBtn" type="button">
+              Make Another Inquiry
+            </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Map & Estate Access Section -->
+<section class="w-full px-gutter pb-space-xl" id="map-section">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-md">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm">
+<div>
+<span class="font-label-md text-label-md uppercase tracking-widest text-secondary font-bold">Arrival &amp; Cartography</span>
+<h2 class="font-headline-md text-headline-md text-primary">Palace Gates &amp; Valet Entry</h2>
+</div>
+<div class="flex flex-wrap items-center gap-space-sm">
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-label-sm text-label-sm">
+              ✦ North Gate: Valet Drop-off
+            </span>
+<span class="px-space-sm py-1 rounded bg-surface-container-high text-on-surface font-label-sm text-label-sm">
+              ✦ West Promenade: Private Carriage Turnaround
+            </span>
+</div>
+</div>
+<!-- Interactive Map Container Card -->
+<div class="relative w-full rounded-2xl overflow-hidden shadow-lg bg-surface-container-low min-h-[460px] flex items-stretch">
+<!-- Static Location Map Pipeline element -->
+<div class="w-full h-full min-h-[460px] bg-cover bg-center" data-location="108 Royal Heritage Boulevard, Downtown Historic Quarter" style="background-image: url('https://www.gstatic.com/labs-code/stitch/stitch-placeholder-300x300.svg')">
+</div>
+<!-- Glassmorphic Map Marker Floating Card -->
+<div class="absolute top-6 left-6 right-6 sm:right-auto sm:max-w-sm bg-surface/90 backdrop-blur-md p-space-lg rounded-xl shadow-xl z-10">
+<div class="flex items-center gap-space-xs text-secondary mb-1">
+<span class="material-symbols-outlined text-[18px]">workspace_premium</span>
+<span class="font-label-sm text-label-sm uppercase font-bold tracking-widest">Grand Palace Gate</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-primary mb-1">Deluxe Mahal Restaurant</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+              Positioned centrally along the Historic Boulevard with private gated courtyard parking and sheltered vestibule drop-off.
+            </p>
+<div class="space-y-space-xs font-label-sm text-label-sm mb-space-md">
+<div class="flex items-center gap-space-xs text-on-surface">
+<span class="material-symbols-outlined text-secondary text-[16px]">local_taxi</span>
+<span>Chauffeur &amp; Rideshare pickup at Portico 2</span>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface">
+<span class="material-symbols-outlined text-secondary text-[16px]">ev_station</span>
+<span>4x EV Rapid Charging bays on-site</span>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface">
+<span class="material-symbols-outlined text-secondary text-[16px]">train</span>
+<span>Metro Central Station: 3-min promenade</span>
+</div>
+</div>
+<a class="w-full py-space-sm px-space-md bg-primary hover:bg-primary-container text-on-primary text-center font-label-md text-label-md uppercase tracking-wider rounded transition-colors inline-flex items-center justify-center gap-space-xs" href="https://maps.google.com" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">navigation</span>
+<span>Launch Satellite Navigation</span>
+</a>
+</div>
+<!-- Live Ambient Status Overlay (Bottom Right) -->
+<div class="hidden sm:flex absolute bottom-6 right-6 bg-surface/90 backdrop-blur-md px-space-md py-space-sm rounded-lg shadow-md items-center gap-space-sm z-10">
+<span class="w-3 h-3 rounded-full bg-secondary-container animate-pulse"></span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm font-bold text-primary">Valet Porters Active</span>
+<span class="font-label-sm text-label-sm text-outline">Complimentary for all seated patrons</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FAQ Accordion Section -->
+<section class="w-full px-gutter pb-space-xl">
+<div class="max-w-4xl mx-auto">
+<div class="text-center mb-space-lg">
+<div class="inline-flex items-center gap-space-xs text-secondary mb-1">
+<span class="text-secondary-fixed">✦</span>
+<span class="font-label-md text-label-md uppercase tracking-widest font-bold">Frequently Consulted Protocols</span>
+<span class="text-secondary-fixed">✦</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-primary">Dining Etiquette &amp; Inquiries</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl mx-auto mt-space-xs">
+            Refined details to assist in orchestrating your visit to Deluxe Mahal.
+          </p>
+</div>
+<div class="flex flex-col gap-space-sm" id="faqAccordion">
+<!-- Question 1 -->
+<div class="bg-surface-container-low rounded-xl overflow-hidden shadow-sm transition-all faq-item">
+<button class="faq-trigger w-full px-space-lg py-space-md flex items-center justify-between text-left focus:outline-none hover:bg-surface-container transition-colors" type="button">
+<span class="font-title-md text-title-md text-primary font-bold">What is the sartorial dress code at Deluxe Mahal?</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-200 faq-icon">expand_more</span>
+</button>
+<div class="faq-content hidden px-space-lg pb-space-md text-body-md text-on-surface-variant">
+              We uphold an elegant **Smart Casual to Royal Formal** aesthetic. Traditional ethnic finery, dinner jackets, tailored trousers, and collared shirts are warmly welcomed. We kindly request guests to refrain from beachwear, athletic shorts, flip-flops, or baseball caps in both the Main Dining Hall and the Sheesh Mahal salon.
+            </div>
+</div>
+<!-- Question 2 -->
+<div class="bg-surface-container-low rounded-xl overflow-hidden shadow-sm transition-all faq-item">
+<button class="faq-trigger w-full px-space-lg py-space-md flex items-center justify-between text-left focus:outline-none hover:bg-surface-container transition-colors" type="button">
+<span class="font-title-md text-title-md text-primary font-bold">Are valet parking and private chauffeur accommodations available?</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-200 faq-icon">expand_more</span>
+</button>
+<div class="faq-content hidden px-space-lg pb-space-md text-body-md text-on-surface-variant">
+              Yes, complimentary white-glove valet services are provided at the North Gate Portico for all dining and banquet guests. For patrons arriving with private chauffeurs, a sheltered lounge with refreshments is available adjacent to the carriage turnaround.
+            </div>
+</div>
+<!-- Question 3 -->
+<div class="bg-surface-container-low rounded-xl overflow-hidden shadow-sm transition-all faq-item">
+<button class="faq-trigger w-full px-space-lg py-space-md flex items-center justify-between text-left focus:outline-none hover:bg-surface-container transition-colors" type="button">
+<span class="font-title-md text-title-md text-primary font-bold">What are the reservation terms and food minimums for Private Banquets?</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-200 faq-icon">expand_more</span>
+</button>
+<div class="faq-content hidden px-space-lg pb-space-md text-body-md text-on-surface-variant">
+              Private Salon reservations (Sheesh Mahal and Darbar Pavilions for 9 to 60 guests) are curated with custom multi-course degustation menus starting at $95 per guest. Our private banquet team will prepare personalized silver-foil printed menus, dedicated musicians, and bespoke floral arrangements upon consultation.
+            </div>
+</div>
+<!-- Question 4 -->
+<div class="bg-surface-container-low rounded-xl overflow-hidden shadow-sm transition-all faq-item">
+<button class="faq-trigger w-full px-space-lg py-space-md flex items-center justify-between text-left focus:outline-none hover:bg-surface-container transition-colors" type="button">
+<span class="font-title-md text-title-md text-primary font-bold">What is your cancellation and table modification protocol?</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-200 faq-icon">expand_more</span>
+</button>
+<div class="faq-content hidden px-space-lg pb-space-md text-body-md text-on-surface-variant">
+              Tables for up to 8 guests may be rescheduled or cancelled without fee up to 6 hours prior to the reservation time via your confirmation link or direct concierge call. For larger festive groups and salon bookings, we request at least 24 hours advance notice to allow our master khansamas to adjust culinary prep.
+            </div>
+</div>
+</div>
+</div>
+</section>
+<!-- Visual Divider & Heritage Signature -->
+<div class="w-full flex items-center justify-center gap-space-md py-space-md text-secondary/40">
+<div class="h-px bg-surface-container-high w-24"></div>
+<span class="text-[12px] uppercase tracking-widest font-label-md text-outline">Aristocratic Dastarkhwan Tradition</span>
+<div class="h-px bg-surface-container-high w-24"></div>
+</div>
+</div>
+<!-- Interactive JavaScript for Date Defaults, Accordion & Validation -->
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // 1. Set minimum reservation date to today
+      const dateInput = document.getElementById('reservationDate');
+      if (dateInput) {
+        const today = new Date().toISOString().split('T')[0];
+        dateInput.min = today;
+        dateInput.value = today;
+      }
+
+      // 2. Interactive FAQ Accordion
+      const faqTriggers = document.querySelectorAll('.faq-trigger');
+      faqTriggers.forEach(trigger => {
+        trigger.addEventListener('click', () => {
+          const content = trigger.nextElementSibling;
+          const icon = trigger.querySelector('.faq-icon');
+          const isExpanded = !content.classList.contains('hidden');
+
+          // Close all open items first for clean accordion behavior
+          document.querySelectorAll('.faq-content').forEach(c => c.classList.add('hidden'));
+          document.querySelectorAll('.faq-icon').forEach(i => i.classList.remove('rotate-180'));
+
+          if (!isExpanded) {
+            content.classList.remove('hidden');
+            icon.classList.add('rotate-180');
+          }
+        });
+      });
+
+      // 3. Client-Side Form Validation & Feedback
+      const form = document.getElementById('reservationForm');
+      const dialog = document.getElementById('confirmationDialog');
+      const resetBtn = document.getElementById('resetFormBtn');
+
+      if (form) {
+        form.addEventListener('submit', (e) => {
+          e.preventDefault();
+          let isValid = true;
+
+          const fullName = document.getElementById('fullName');
+          const email = document.getElementById('emailAddress');
+          const phone = document.getElementById('phoneNumber');
+          const date = document.getElementById('reservationDate');
+
+          // Errors
+          const errName = document.getElementById('err-fullName');
+          const errEmail = document.getElementById('err-email');
+          const errPhone = document.getElementById('err-phone');
+          const errDate = document.getElementById('err-date');
+
+          // Name validation
+          if (!fullName.value.trim()) {
+            errName.classList.remove('hidden');
+            fullName.classList.add('bg-error-container/20');
+            isValid = false;
+          } else {
+            errName.classList.add('hidden');
+            fullName.classList.remove('bg-error-container/20');
+          }
+
+          // Email validation
+          const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+          if (!emailRegex.test(email.value.trim())) {
+            errEmail.classList.remove('hidden');
+            email.classList.add('bg-error-container/20');
+            isValid = false;
+          } else {
+            errEmail.classList.add('hidden');
+            email.classList.remove('bg-error-container/20');
+          }
+
+          // Phone validation
+          const cleanedPhone = phone.value.replace(/[^0-9]/g, '');
+          if (cleanedPhone.length < 8) {
+            errPhone.classList.remove('hidden');
+            phone.classList.add('bg-error-container/20');
+            isValid = false;
+          } else {
+            errPhone.classList.add('hidden');
+            phone.classList.remove('bg-error-container/20');
+          }
+
+          // Date validation
+          if (!date.value) {
+            errDate.classList.remove('hidden');
+            date.classList.add('bg-error-container/20');
+            isValid = false;
+          } else {
+            errDate.classList.add('hidden');
+            date.classList.remove('bg-error-container/20');
+          }
+
+          if (isValid) {
+            // Populate Modal
+            const seatingSelected = document.querySelector('input[name="seatingLocation"]:checked')?.value || 'Main Dining Hall';
+            const guestValue = document.getElementById('guestCount').value;
+            const timeValue = document.getElementById('timeSlot').value;
+
+            document.getElementById('confirmGuestName').innerText = fullName.value;
+            document.getElementById('confirmSeating').innerText = seatingSelected;
+            document.getElementById('confirmDateTime').innerText = `${date.value} at ${timeValue}`;
+            document.getElementById('confirmGuests').innerText = guestValue;
+
+            // Display confirmation modal
+            dialog.classList.remove('hidden');
+            dialog.classList.add('flex');
+          }
+        });
+      }
+
+      if (resetBtn && dialog) {
+        resetBtn.addEventListener('click', () => {
+          dialog.classList.add('hidden');
+          dialog.classList.remove('flex');
+          form.reset();
+          const today = new Date().toISOString().split('T')[0];
+          dateInput.value = today;
+        });
+      }
+    });
+  </script>
+</div></main><footer class="w-full bg-primary text-on-primary pt-space-xl pb-space-lg"><div class="w-full px-gutter"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter mb-space-xl"><div class="flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><div class="w-9 h-9 rounded-lg bg-primary-container flex items-center justify-center text-secondary-fixed"><span class="material-symbols-outlined text-[20px]">hotel_class</span></div><span class="font-headline-sm text-headline-sm text-surface-bright">Deluxe Mahal</span></div><p class="font-body-sm text-body-sm text-outline-variant leading-relaxed">Embodying centuries of aristocratic hospitality and imperial feast traditions. Prepared by master khansamas honoring royal Mughal and Awadhi culinary artistry.</p><div class="flex items-center gap-space-sm text-secondary-fixed"><a aria-label="Dining Reviews" class="w-8 h-8 rounded bg-primary-container flex items-center justify-center hover:bg-secondary-container hover:text-on-secondary-fixed transition-colors" href="#"><span class="material-symbols-outlined text-[16px]">grade</span></a><a aria-label="Culinary Visuals" class="w-8 h-8 rounded bg-primary-container flex items-center justify-center hover:bg-secondary-container hover:text-on-secondary-fixed transition-colors" href="#"><span class="material-symbols-outlined text-[16px]">photo_camera</span></a><a aria-label="Direct Inquiries" class="w-8 h-8 rounded bg-primary-container flex items-center justify-center hover:bg-secondary-container hover:text-on-secondary-fixed transition-colors" href="#"><span class="material-symbols-outlined text-[16px]">mail</span></a><a aria-label="Location Map" class="w-8 h-8 rounded bg-primary-container flex items-center justify-center hover:bg-secondary-container hover:text-on-secondary-fixed transition-colors" href="#"><span class="material-symbols-outlined text-[16px]">pin_drop</span></a></div></div><div class="flex flex-col gap-space-md"><span class="font-title-md text-title-md text-secondary-fixed uppercase tracking-wider">Royal Exploration</span><div class="flex flex-col gap-space-sm font-body-sm text-body-sm"><a class="text-outline-variant hover:text-surface-bright transition-colors" data-path="home" href="index.html">Home Canvas</a><a class="text-outline-variant hover:text-surface-bright transition-colors" data-path="about-us" href="about.html">Our Royal Heritage</a><a class="text-outline-variant hover:text-surface-bright transition-colors" data-path="menu" href="menu.html">Imperial Dastarkhwan Menu</a><a class="text-outline-variant hover:text-surface-bright transition-colors" data-path="gallery" href="gallery.html">The Grand Gallery</a><a class="text-outline-variant hover:text-surface-bright transition-colors" data-path="contact" href="contact.html">Contact &amp; Valet Services</a><a class="text-outline-variant hover:text-surface-bright transition-colors" data-path="reservations" href="contact.html#reservationForm">Reserve a Royal Pavilion</a></div></div><div class="flex flex-col gap-space-md"><span class="font-title-md text-title-md text-secondary-fixed uppercase tracking-wider">Signature Masterpieces</span><div class="flex flex-col gap-space-sm font-body-sm text-body-sm text-outline-variant"><div class="flex flex-col"><span class="text-surface-bright font-title-md">Mughlai Dum Biryani</span><span class="text-label-sm text-secondary-fixed">Slow-cooked tender lamb in saffron seal</span></div><div class="flex flex-col"><span class="text-surface-bright font-title-md">Shahi Tukda</span><span class="text-label-sm text-secondary-fixed">Crisp brioche in saffron rabri &amp; edible silver</span></div><div class="flex flex-col"><span class="text-surface-bright font-title-md">Zafrani Kebab</span><span class="text-label-sm text-secondary-fixed">Charcoal-smoked spiced supreme cuts</span></div></div></div><div class="flex flex-col gap-space-md"><span class="font-title-md text-title-md text-secondary-fixed uppercase tracking-wider">Private Banquet Guild</span><p class="font-body-sm text-body-sm text-outline-variant">Subscribe for seasonal private tasting invitations, royal banquet previews, and chef's table dispatches.</p><div class="flex flex-col gap-space-sm"><div class="flex rounded-lg overflow-hidden bg-primary-container p-space-xs"><input class="w-full px-space-sm py-space-xs bg-transparent text-surface-bright placeholder-outline focus:outline-none font-body-sm text-body-sm" placeholder="Your royal courier email..." type="email"/><button class="px-space-md py-space-xs bg-secondary-container hover:bg-secondary text-on-secondary-fixed hover:text-on-secondary rounded font-label-md text-label-md transition-colors" type="button"><span class="material-symbols-outlined text-[16px]">send</span></button></div><span class="font-label-sm text-label-sm text-outline">Discreet notifications. Never commercial spam.</span></div></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md font-label-sm text-label-sm text-outline"><div class="flex items-center gap-space-xs"><span>✦</span><span>© 2025 Deluxe Mahal Restaurant. All rights reserved.</span></div><div class="flex items-center gap-space-lg"><a class="hover:text-surface-bright transition-colors" href="#">Private Dining Charter</a><a class="hover:text-surface-bright transition-colors" href="#">Dietary Protocol</a><a class="hover:text-surface-bright transition-colors" href="#">Concierge Desk</a></div></div></div></footer></body></html>

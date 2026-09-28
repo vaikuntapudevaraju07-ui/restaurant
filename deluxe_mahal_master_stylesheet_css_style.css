@@ -1,0 +1,132 @@
+/* Deluxe Mahal Restaurant - Master Stylesheet (css/style.css) */
+:root {
+  --primary-color: #4A0E17;       /* Royal Mahogany Burgundy */
+  --primary-dark: #32070D;
+  --secondary-color: #D49B35;     /* Warm Royal Saffron Gold */
+  --secondary-light: #F3E5AB;
+  --accent-gold: #E5A93C;
+  --bg-cream: #FDFBF7;
+  --bg-card: #FFFFFF;
+  --text-dark: #1E1A18;
+  --text-muted: #6C625D;
+  --border-gold: rgba(212, 155, 53, 0.25);
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--bg-cream);
+  color: var(--text-dark);
+  line-height: 1.6;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, .font-heading {
+  font-family: var(--font-heading);
+  letter-spacing: -0.01em;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-cream);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--secondary-color);
+  border-radius: 4px;
+}
+
+/* Luxury Buttons */
+.btn-gold {
+  background: linear-gradient(135deg, #D49B35 0%, #B88022 100%);
+  color: #1E1A18;
+  font-weight: 600;
+  border: 1px solid #E5A93C;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 14px rgba(212, 155, 53, 0.25);
+}
+.btn-gold:hover {
+  background: linear-gradient(135deg, #E5A93C 0%, #C48A27 100%);
+  color: #000;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(212, 155, 53, 0.35);
+}
+
+.btn-royal-outline {
+  border: 1.5px solid var(--secondary-color);
+  color: var(--secondary-color);
+  background: transparent;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+.btn-royal-outline:hover {
+  background: var(--secondary-color);
+  color: #FFFFFF;
+  transform: translateY(-2px);
+}
+
+/* Card Styling */
+.card-royal {
+  background: var(--bg-card);
+  border: 1px solid var(--border-gold);
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-royal:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(74, 14, 23, 0.08);
+  border-color: var(--secondary-color);
+}
+
+/* Gallery Hover */
+.gallery-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.gallery-card img {
+  transition: transform 0.5s ease;
+}
+.gallery-card:hover img {
+  transform: scale(1.06);
+}
+.gallery-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(74, 14, 23, 0.9) 0%, rgba(74, 14, 23, 0.2) 60%, transparent 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1.5rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.gallery-card:hover .gallery-overlay {
+  opacity: 1;
+}
+
+/* Forms */
+.form-royal .form-control, .form-royal .form-select {
+  border: 1px solid #D9D2C7;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  background-color: #FAF8F5;
+}
+.form-royal .form-control:focus, .form-royal .form-select:focus {
+  border-color: var(--secondary-color);
+  box-shadow: 0 0 0 3px rgba(212, 155, 53, 0.2);
+  background-color: #FFFFFF;
+}
+
+/* Badges */
+.badge-gold {
+  background-color: rgba(212, 155, 53, 0.15);
+  color: #9A6B1A;
+  border: 1px solid rgba(212, 155, 53, 0.3);
+  font-weight: 600;
+}
